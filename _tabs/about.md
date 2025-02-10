@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-##### A Purple Thinker - Bangladeshi Engineer, Architect,  Author and Entrepreneur with over two decades of experience across the globe at the intersection of technology and business. He has worked extensively on data warehousing, cloud-native solutions,  distributed architecture, big data solutions, SaaS platforms, and enterprise AI solutions while founding multiple startups and leading product development across Asia, Europe, and North America.
+##### A Purple Thinker - Bangladeshi Engineer, Architect and Author with over two decades of experience across the globe at the intersection of technology and business. He has worked extensively on data warehousing, cloud-native solutions,  distributed architecture, big data solutions, SaaS platforms, and enterprise AI solutions while founding multiple startups and leading product development across Asia, Europe, and North America.
 
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
