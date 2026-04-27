@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Mahmudur R Manna</title>
+    <link>https://mrmanna.github.io/</link>
+    <atom:link href="https://mrmanna.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Complete public archive — preprints, articles, books, frameworks, code, and demos from Mahmudur R Manna. Enterprise AI, decision-driven software engineering, agent-native knowledge modelling.</description>
+    <language>en</language>
+    <managingEditor>mrmanna@github.io (Mahmudur R Manna)</managingEditor>
+    <webMaster>mrmanna@github.io (Mahmudur R Manna)</webMaster>
+    <lastBuildDate>Sun, 27 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <image>
+      <url>https://mrmanna.github.io/assets/favicon.svg</url>
+      <title>Mahmudur R Manna</title>
+      <link>https://mrmanna.github.io/</link>
+    </image>
+
+    <!-- ═══════════════════════════════════════════════
+         NOW — recent publications
+    ════════════════════════════════════════════════ -->
+
+    <item>
+      <title>Active Knowledge Modelling Methodology for Agent-Native Knowledgebases</title>
+      <link>https://doi.org/10.5281/zenodo.19782389</link>
+      <guid isPermaLink="false">zenodo.19782389</guid>
+      <pubDate>Sun, 26 Apr 2026 07:15:37 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Knowledge Engineering</category>
+      <category>AI Agents</category>
+      <description>Proposes that knowledge engineering for agents requires boundary analysis — defining where a thing starts, ends, relates, and what its purpose is — as the first modelling step, before lifecycle or state work begins. A knowledgebase composed of Active Things gives an agent an entry point into a case rather than forcing reconstruction from disconnected records and documents. Seven structural features (Start, End, States, Transitions, Events, Relations, Purpose) constitute the Identity Index of any Active Thing. Evidence is bounded to one anchor domain plus two transfer proof-of-concepts; not industrially validated. Article: https://huggingface.co/blog/mrmanna/active-knowledge-modelling-methodology — Book: https://www.amazon.com/dp/B0GY4XMMN1 — Mirror: https://www.researchgate.net/publication/404203082</description>
+    </item>
+
+    <item>
+      <title>AI Reviews of The World of Active Things</title>
+      <link>https://cloudoffice.io/ai-reviews-of-the-book-the-world-of-0509f5fda49e</link>
+      <guid isPermaLink="true">https://cloudoffice.io/ai-reviews-of-the-book-the-world-of-0509f5fda49e</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Note</category>
+      <category>AI Agents</category>
+      <description>Two AI reviewers — Gemini Pro and ChatGPT Pro — were given The World of Active Things with a structured prompt and asked for an independent critical assessment. Both prompts and full model responses are published verbatim, including the parts that were critical or uncertain. The point is transparency about how AI reads a technical argument, not endorsement of a positive verdict. Book: https://www.amazon.com/dp/B0GY4XMMN1</description>
+    </item>
+
+    <item>
+      <title>AI &amp; State Machine</title>
+      <link>https://pub.towardsai.net/ai-state-machine-106387406c5a</link>
+      <guid isPermaLink="true">https://pub.towardsai.net/ai-state-machine-106387406c5a</guid>
+      <pubDate>Sat, 18 Apr 2026 15:01:01 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Article</category>
+      <category>AI Engineering</category>
+      <category>Towards AI</category>
+      <description>Toy agents demo well because they execute single tasks on forgiving inputs with no need to recover. Production agents face three harder requirements: recover from partial failures, hand off to other agents or humans with continuity, and remain observable under monitoring. The article argues all three converge on the same structural gap: an agent with no explicit model of its own state and lifecycle cannot do any of them reliably. State machines are not an architectural preference — they are the precondition.</description>
+    </item>
+
+    <item>
+      <title>The Missing Middle of Enterprise AI</title>
+      <link>https://ai.gopubby.com/the-missing-middle-of-enterprise-ai-b135381bbb39</link>
+      <guid isPermaLink="true">https://ai.gopubby.com/the-missing-middle-of-enterprise-ai-b135381bbb39</guid>
+      <pubDate>Wed, 15 Apr 2026 16:35:45 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Article</category>
+      <category>Enterprise AI</category>
+      <category>AI Advances</category>
+      <description>Enterprise AI deployments tend to stall between the strategy deck and the working system — not because the model is wrong and not because the infrastructure is missing, but because the middle layer is never built. That middle layer must do three things: preserve decisions explicitly so they survive team and context change; enforce contracts so agent behaviour stays within intended bounds; and assemble context deliberately so the model operates on the right slice of the world rather than an unfiltered retrieval dump.</description>
+    </item>
+
+    <item>
+      <title>If You Know MCP but Not Tools, This Is For You</title>
+      <link>https://mrmanna.medium.com/if-you-know-mcp-but-not-tools-this-is-for-you-f193e156abbd</link>
+      <guid isPermaLink="true">https://mrmanna.medium.com/if-you-know-mcp-but-not-tools-this-is-for-you-f193e156abbd</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Article</category>
+      <category>AI Engineering</category>
+      <category>Medium</category>
+      <description>MCP is a protocol — a standard way for a system to address an LLM through a defined structure — not synonymous with "MCP server". A tool has two distinct halves: the schema (what the model sees: name, description, parameters, required fields) and the command (what the runtime executes). The model sees no code — only the contract. Opens with a concrete bug: one missing required field in a tool schema caused a cascading night of parser failures, and the fix was not a better prompt but a correctly specified contract.</description>
+    </item>
+
+    <item>
+      <title>Pushing Meaning Uphill</title>
+      <link>https://huggingface.co/blog/mrmanna/push</link>
+      <guid isPermaLink="true">https://huggingface.co/blog/mrmanna/push</guid>
+      <pubDate>Sat, 14 Mar 2026 07:08:48 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Essay</category>
+      <category>Hugging Face</category>
+      <description>A reflective essay on writing, coding, and publishing real frameworks before the surrounding language is ready. Three retrospective sections: DDSE — that AI-assisted software delivery requires structured decision records throughout the SDLC; ACM — that agent governance must be designed in as typed contracts and replayable ledgers before deployment; and CEF — that context is part of the engineering foundation, not a retrieval utility around it.</description>
+    </item>
+
+    <!-- ═══════════════════════════════════════════════
+         BOOKS
+    ════════════════════════════════════════════════ -->
+
+    <item>
+      <title>The World of Active Things (book)</title>
+      <link>https://www.amazon.com/dp/B0GY4XMMN1</link>
+      <guid isPermaLink="false">amazon.B0GY4XMMN1</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Book</category>
+      <category>Knowledge Engineering</category>
+      <category>AI Agents</category>
+      <description>81 pages. The monograph behind AKMM. Argues knowledge becomes meaningful only when you first ask: what belongs to this thing as this thing? That is boundary. Then: how does it begin, move, relate, and end within that boundary? That is lifecycle. Develops seven structural features — Start, End, States, Transitions, Events, Relations, Purpose — and the Identity Index as the minimum through which a thing becomes operable knowledge rather than a record cluster. #99 in Data Modeling and Design. Kindle: https://www.amazon.com/dp/B0GX2VP8RS — DOI: https://doi.org/10.5281/zenodo.19782389</description>
+    </item>
+
+    <item>
+      <title>There Are Seasons of the Mind (book)</title>
+      <link>https://www.amazon.com/there-seasons-Mahmudur-Rahman-Manna-ebook/dp/B0DVJ73Z9J</link>
+      <guid isPermaLink="false">amazon.B0DVJ73Z9J</guid>
+      <pubDate>Sun, 01 Feb 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Book</category>
+      <category>Philosophy</category>
+      <category>Psychology</category>
+      <description>43 pages. Introduces the PEPPA framework (Peace as Purpose, Emotional Intelligence, Proactivity, Patience, Acceptance) — integrating entropy, inertia, and equilibrium from physics with Stoic and Frankl-inspired principles for human resolve. Models mental resilience through three physics metaphors: entropy (sustained effort without renewal degrades capability), inertia (initiating change requires activation energy beyond intention alone), and equilibrium (performance requires balance between challenge and recovery). DOI: https://doi.org/10.5281/zenodo.13843668</description>
+    </item>
+
+    <item>
+      <title>ELIAS: The Quest for Meaning (book)</title>
+      <link>https://www.amazon.com/ELIAS-Meaning-Mahmudur-Rahman-Manna/dp/B0DFV75SG7</link>
+      <guid isPermaLink="false">amazon.B0DFV75SG7</guid>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Book</category>
+      <category>Philosophy</category>
+      <category>Psychology</category>
+      <description>100 pages. A novella-style dialogue where a researcher studies toxic workplace behaviours alongside Elias Thorn — covering distrust, scarcity mindset, and the search for purpose. Integrates Stoic self-regulation and Viktor Frankl's will-to-meaning with workplace behavioural dynamics. Reviewed by Gabriel Santos for Readers' Favorite. #2,372 in Behavioural Psychology on Amazon.</description>
+    </item>
+
+    <item>
+      <title>Enterprise AI: Strategic Blueprint for Purple People (book)</title>
+      <link>https://www.amazon.com/Enterprise-AI-Strategic-Blueprint-Purple/dp/B0D5RKHXMY</link>
+      <guid isPermaLink="false">amazon.B0D5RKHXMY</guid>
+      <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Book</category>
+      <category>Enterprise AI</category>
+      <category>Strategy</category>
+      <description>181 pages. Introduces the Enterprise AI Transformation Framework (EAITF): decision-domain profiling, Principal Component Analysis, and an AI Effectiveness Index with a Python walkthrough. Rated 3.8/5 across 5 reviews. Leanpub: https://leanpub.com/enterpriseaiforpurplepeople — DOI: https://doi.org/10.5281/zenodo.11422132</description>
+    </item>
+
+    <item>
+      <title>ESG Data Explained (book)</title>
+      <link>https://leanpub.com/esgdata</link>
+      <guid isPermaLink="true">https://leanpub.com/esgdata</guid>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Book</category>
+      <category>ESG</category>
+      <category>Data</category>
+      <description>A hands-on reference for professionals, policymakers, and investors: environmental, social, and governance metrics with Python calculation examples and global case studies including India and Bangladesh. Companion series on Medium covers metrics, calculation, and reporting in three parts: https://mrmanna.medium.com/esg-data-explained-a-comprehensive-guide-to-metrics-calculation-and-reporting-part-i-ba5479e527ce</description>
+    </item>
+
+    <!-- ═══════════════════════════════════════════════
+         FRAMEWORKS &amp; METHODS
+    ════════════════════════════════════════════════ -->
+
+    <item>
+      <title>AKMM — Active Knowledge Modelling Methodology</title>
+      <link>https://huggingface.co/blog/mrmanna/active-knowledge-modelling-methodology</link>
+      <guid isPermaLink="true">https://huggingface.co/blog/mrmanna/active-knowledge-modelling-methodology</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Framework</category>
+      <category>Knowledge Engineering</category>
+      <category>AI Agents</category>
+      <description>Active Knowledge Modelling Methodology — models a knowledgebase as a world of Active Things with explicit boundary, lifecycle, identity, lived memory, canonical events, and purpose, so AI agents can operate on the case rather than reconstruct it. Bounded methodology evidence (one anchor, two transfer PoCs); not an industry standard. DOI: https://doi.org/10.5281/zenodo.19782389 — Book: https://www.amazon.com/dp/B0GY4XMMN1</description>
+    </item>
+
+    <item>
+      <title>DDSE — Decision-Driven Software Engineering</title>
+      <link>https://ddse-foundation.github.io/</link>
+      <guid isPermaLink="true">https://ddse-foundation.github.io/</guid>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Framework</category>
+      <category>Software Engineering</category>
+      <category>DDSE Foundation</category>
+      <description>An SDLC where significant technical decisions are captured and governed as first-class artefacts — Architectural Decision Record (ADR), Engineering Decision Record (EDR), Incident Decision Record (IDR), Technology Decision Map (TDM), and Master Decision Document (MDD) — so AI-assisted development stays inside human authority and preserves architectural intent. Humans retain authority; the AI uses decision records as context, not discretion. DOI: https://doi.org/10.5281/zenodo.16462014 — GitHub: https://github.com/ddse-foundation/ddse-foundation</description>
+    </item>
+
+    <item>
+      <title>ACM — Agentic Contract Model</title>
+      <link>https://doi.org/10.5281/zenodo.17278997</link>
+      <guid isPermaLink="false">zenodo.17278997</guid>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Framework</category>
+      <category>AI Agents</category>
+      <category>DDSE Foundation</category>
+      <description>A spec-first contract layer for agentic systems: typed contracts, deterministic execution, and a replayable decision memory so agents can be reasoned about, not just observed. Where most agent frameworks treat goals, plans, and tools as prompt constructs, ACM defines them as typed artefacts with explicit lifecycle states, guard conditions, capability maps, and a replayable ledger. Ships a TypeScript reference runtime under the DDSE Foundation. GitHub: https://github.com/ddse-foundation/acm — Docs: https://ddse-foundation.github.io/acm/ — Article: https://huggingface.co/blog/mrmanna/agentic-contract-model</description>
+    </item>
+
+    <item>
+      <title>CEF — Context Engineering Framework</title>
+      <link>https://github.com/ddse-foundation/cef</link>
+      <guid isPermaLink="true">https://github.com/ddse-foundation/cef</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Framework</category>
+      <category>AI Engineering</category>
+      <category>DDSE Foundation</category>
+      <description>An ORM-style framework for LLM context: relationship-aware context assembly over knowledge models with graph and vector persistence. Moves beyond retrieval by modelling knowledge as typed entities with relationships, lifecycle, and semantic distance. Marked as a research edition; not enterprise-hardened. Docs: https://ddse-foundation.github.io/cef/ — Article: https://huggingface.co/blog/mrmanna/ddse-cef-orm</description>
+    </item>
+
+    <item>
+      <title>EAITF — Enterprise AI Transformation Framework</title>
+      <link>https://doi.org/10.5281/zenodo.11422132</link>
+      <guid isPermaLink="false">zenodo.11422132</guid>
+      <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Framework</category>
+      <category>Enterprise AI</category>
+      <category>Strategy</category>
+      <description>The framework behind Enterprise AI: Strategic Blueprint for Purple People. Covers decision-domain inventory and profiling, and an AI Effectiveness Index derived through PCA over scored decision domains. Provides a structured method for enterprises to identify where AI intervention will have the highest measurable impact. Book: https://www.amazon.com/Enterprise-AI-Strategic-Blueprint-Purple/dp/B0D5RKHXMY — Leanpub: https://leanpub.com/enterpriseaiforpurplepeople</description>
+    </item>
+
+    <!-- ═══════════════════════════════════════════════
+         PAPERS &amp; PREPRINTS
+    ════════════════════════════════════════════════ -->
+
+    <item>
+      <title>A Dynamic Neuro-Symbolic Approach to Bridging Conceptual Knowledge Gaps</title>
+      <link>https://doi.org/10.5281/zenodo.15031473</link>
+      <guid isPermaLink="false">zenodo.15031473</guid>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Knowledge Engineering</category>
+      <category>AI Agents</category>
+      <description>A hybrid architecture for closing gaps in structured knowledge: a symbolic knowledge graph identifies where conceptual connective tissue is missing, GPT is queried incrementally to propose bridge concepts, and the proposed chain is validated and reintegrated into the graph. The cycle iterates until the gap narrows below a threshold. Frames the problem as one of convergence, not generation — the LLM fills specific holes rather than generating freeform explanations.</description>
+    </item>
+
+    <item>
+      <title>Thinking GPT — Inspired by Descartes' Discourse on the Method</title>
+      <link>https://doi.org/10.5281/zenodo.13887022</link>
+      <guid isPermaLink="false">zenodo.13887022</guid>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Philosophy</category>
+      <category>AI Engineering</category>
+      <description>Applies Descartes' four rules — decompose, order, enumerate, review — as a reasoning discipline imposed on GPT. The central question is whether a Cartesian audit structure produces more reliable, less confabulated responses on complex reasoning tasks than open-ended prompting. A methodological experiment in structured epistemic discipline applied to large language models.</description>
+    </item>
+
+    <item>
+      <title>PEPPA Framework — Physics, Philosophy, Psychology for Human Resolve</title>
+      <link>https://doi.org/10.5281/zenodo.13843668</link>
+      <guid isPermaLink="false">zenodo.13843668</guid>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Philosophy</category>
+      <category>Psychology</category>
+      <description>The DOI-backed preprint behind There Are Seasons of the Mind. Models human mental resilience through three physics metaphors: entropy (sustained effort without renewal degrades capability), inertia (initiating change requires activation energy beyond intention alone), and equilibrium (performance requires balance between challenge and recovery). Integrated with Stoic self-regulation and Viktor Frankl's will-to-meaning as practical counterweights to each physical force. Book: https://www.amazon.com/there-seasons-Mahmudur-Rahman-Manna-ebook/dp/B0DVJ73Z9J</description>
+    </item>
+
+    <item>
+      <title>Reimagining Value: Harnessing the Attention Economy for a Transparent and Engaged Society</title>
+      <link>https://doi.org/10.5281/zenodo.13324186</link>
+      <guid isPermaLink="false">zenodo.13324186</guid>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Philosophy</category>
+      <category>Governance</category>
+      <description>Argues that the engagement-maximising design of current social platforms is not technologically inevitable — it is a deliberate architectural choice. Proposes an alternative set of design principles oriented toward transparency, contribution, and civic participation that could redirect the same attention infrastructure toward measurably better social outcomes, without requiring platform replacement.</description>
+    </item>
+
+    <item>
+      <title>The Productivity Paradox</title>
+      <link>https://doi.org/10.5281/zenodo.13310258</link>
+      <guid isPermaLink="false">zenodo.13310258</guid>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Philosophy</category>
+      <category>Work</category>
+      <description>Distinguishes between activity (visible motion through tools, meetings, and status updates) and productive work (directed effort that moves a stated goal forward). Examines the structural conditions — notification design, meeting culture, tooling overhead, and fragmented context — that make high-activity, low-output environments self-reinforcing, and why individual willpower is an insufficient corrective.</description>
+    </item>
+
+    <item>
+      <title>Generation Z and the Single Neck to Choke Philosophy</title>
+      <link>https://doi.org/10.5281/zenodo.13308576</link>
+      <guid isPermaLink="false">zenodo.13308576</guid>
+      <pubDate>Fri, 01 Aug 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Governance</category>
+      <category>Work</category>
+      <description>The "single neck to choke" management model concentrates accountability at one person as a mechanism of control. This paper argues the model is structurally incompatible with networked, cross-functional work — and with Gen Z's expectation of distributed ownership — because it optimises for blame assignment over problem resolution, damages trust faster than it creates accountability, and collapses under the ambiguity of modern product delivery.</description>
+    </item>
+
+    <item>
+      <title>Integrating Machine Learning into Established Application Architectures</title>
+      <link>https://doi.org/10.5281/zenodo.11784521</link>
+      <guid isPermaLink="false">zenodo.11784521</guid>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Preprint</category>
+      <category>Software Engineering</category>
+      <category>AI Engineering</category>
+      <description>A practical mapping of ML integration patterns for enterprise engineers working with existing Java/microservice systems. Covers sidecar inference, async event-driven ML triggers, API bridge patterns, and the deployment lifecycle differences between ML models and conventional software artefacts. Addresses the common failure mode of treating an ML model as a library call rather than as a separately versioned, separately deployed runtime.</description>
+    </item>
+
+    <!-- ═══════════════════════════════════════════════
+         CODE REPOSITORIES
+    ════════════════════════════════════════════════ -->
+
+    <item>
+      <title>ddse-foundation/acm — Agentic Contract Model (GitHub)</title>
+      <link>https://github.com/ddse-foundation/acm</link>
+      <guid isPermaLink="true">https://github.com/ddse-foundation/acm</guid>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Code</category>
+      <category>AI Agents</category>
+      <category>TypeScript</category>
+      <description>Agentic Contract Model — spec-first contract layer for agentic systems. Defines goals, plans, and tools as typed artefacts with explicit lifecycle states, guard conditions, capability maps, and a replayable decision ledger. Ships a TypeScript reference runtime. Agent behaviour can be inspected and replayed, not just observed after the fact. Docs: https://ddse-foundation.github.io/acm/</description>
+    </item>
+
+    <item>
+      <title>ddse-foundation/cef — Context Engineering Framework (GitHub)</title>
+      <link>https://github.com/ddse-foundation/cef</link>
+      <guid isPermaLink="true">https://github.com/ddse-foundation/cef</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Code</category>
+      <category>AI Engineering</category>
+      <category>Java</category>
+      <description>Context Engineering Framework — an ORM-style layer for LLM context assembly. Combines graph and vector persistence, relationship navigation, parser systems, and LLM integration so that context is assembled deliberately rather than retrieved as a flat embedding result. Research edition; not enterprise-hardened. Docs: https://ddse-foundation.github.io/cef/</description>
+    </item>
+
+    <item>
+      <title>ddse-foundation/ddse-foundation — DDSE Templates &amp; Reference (GitHub)</title>
+      <link>https://github.com/ddse-foundation/ddse-foundation</link>
+      <guid isPermaLink="true">https://github.com/ddse-foundation/ddse-foundation</guid>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Code</category>
+      <category>Software Engineering</category>
+      <category>Python</category>
+      <description>DDSE implementation templates, decision record formats, and worked examples for teams adopting Decision-Driven Software Engineering. Covers ADR, EDR, IDR, TDM, and MDD artefact types with guidance on how each fits into an AI-assisted development workflow where humans retain authority. Foundation site: https://ddse-foundation.github.io/</description>
+    </item>
+
+    <item>
+      <title>mrmanna/cockpit — Java PWA &amp; Microservice Platform (GitHub)</title>
+      <link>https://github.com/mrmanna/cockpit</link>
+      <guid isPermaLink="true">https://github.com/mrmanna/cockpit</guid>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Code</category>
+      <category>Software Architecture</category>
+      <category>Java</category>
+      <description>Java PWA and microservice development platform from the CloudOffice digital workplace work. Architecture: Netty 4 HTTP/2 API gateway routing to Jersey microservices, bck2brwsr-compiled browser-side SPA shell, gadget SDK for composable UI modules, SASS/JSON theme and layout builder. Article: https://mrmanna.medium.com/cloudoffice-cockpit-framework-a1111f466eff</description>
+    </item>
+
+    <item>
+      <title>kareegor/mmfb — Cloud-Agnostic Microservice Ecosystem (GitHub)</title>
+      <link>https://github.com/kareegor/mmfb</link>
+      <guid isPermaLink="true">https://github.com/kareegor/mmfb</guid>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Code</category>
+      <category>Software Architecture</category>
+      <category>Java</category>
+      <description>Multi micro-frontends and backends — cloud-agnostic microservice ecosystem. Stack: Spring Boot, Traefik, Keycloak, Consul, Kafka, Angular microfrontends, Prometheus and Grafana. Central constraint is portability: runs on a developer machine, Docker Swarm, and any Kubernetes provider without environment-specific changes. Article: https://mrmanna.medium.com/cloud-agnostic-microfrontends-and-microservices-architecture-fcf53feb815f</description>
+    </item>
+
+    <item>
+      <title>mrmanna/agnosticmlflow — Cloud-Agnostic ML Pipelines (GitHub)</title>
+      <link>https://github.com/mrmanna/agnosticmlflow</link>
+      <guid isPermaLink="true">https://github.com/mrmanna/agnosticmlflow</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Code</category>
+      <category>AI Engineering</category>
+      <category>Python</category>
+      <description>Cloud-agnostic ML pipelines using Apache Beam with an Apache Flink runner on Minikube and MinIO as object storage. The same pipeline code runs locally and can target any cloud-hosted Beam runner without vendor lock-in. Companion to the nine-part cloud-agnostic platforms article series. Article: https://ai.gopubby.com/i-spent-a-week-building-the-foundation-for-cloud-agnostic-ml-pipelines-heres-everything-you-f147bfb75ad0</description>
+    </item>
+
+    <!-- ═══════════════════════════════════════════════
+         DEMOS &amp; TALKS
+    ════════════════════════════════════════════════ -->
+
+    <item>
+      <title>Capability OS — Omni Agent Demo (video)</title>
+      <link>https://www.youtube.com/watch?v=voF6x1aV_z4</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=voF6x1aV_z4</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Demo</category>
+      <category>AI Agents</category>
+      <description>41:15. End-to-end run of the agent stack — orchestration, tools, memory. Demonstrates Capability OS with the Omni Agent pattern: how the agent selects tools, manages memory across turns, and routes sub-tasks. Hosted on YouTube under @PurpleThinkers.</description>
+    </item>
+
+    <item>
+      <title>DDSE in Action (video)</title>
+      <link>https://www.youtube.com/watch?v=0IzQgqFSdvo</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=0IzQgqFSdvo</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Demo</category>
+      <category>Software Engineering</category>
+      <description>4:46. Decision-driven software engineering applied on a small concrete case. Shows the decision record artefacts (ADR, EDR) in use and how they structure the AI-assisted development workflow. Hosted on YouTube under @PurpleThinkers.</description>
+    </item>
+
+    <item>
+      <title>Neural-Symbolic Models — companion to the paper (video)</title>
+      <link>https://www.youtube.com/watch?v=kidJABlhHk8</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=kidJABlhHk8</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Demo</category>
+      <category>Knowledge Engineering</category>
+      <description>3:23. Visual companion to the agent-architecture paper on dynamic neuro-symbolic knowledge gap bridging. Paper: https://doi.org/10.5281/zenodo.15031473. Hosted on YouTube under @PurpleThinkers.</description>
+    </item>
+
+    <item>
+      <title>Parallel Deep Research with DeepSeek R1 (video)</title>
+      <link>https://www.youtube.com/watch?v=kX5SykY0OhM</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=kX5SykY0OhM</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Demo</category>
+      <category>AI Engineering</category>
+      <description>2:59. Demonstration of a parallel deep research pipeline using DeepSeek R1 — multiple research threads running concurrently, results aggregated into a structured report. Hosted on YouTube under @PurpleThinkers.</description>
+    </item>
+
+    <item>
+      <title>Multi-Agent Chatroom — Day 1 (video)</title>
+      <link>https://www.youtube.com/watch?v=TDFDKpYzgSE</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=TDFDKpYzgSE</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Demo</category>
+      <category>AI Agents</category>
+      <description>9:15. First session of the multi-agent chatroom build — agents communicating in a shared room, routing messages to the appropriate specialist. Hosted on YouTube under @PurpleThinkers.</description>
+    </item>
+
+    <item>
+      <title>Multi-Agent Chatroom — Week 2 (video)</title>
+      <link>https://www.youtube.com/watch?v=GlKbS05ZWp0</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=GlKbS05ZWp0</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Demo</category>
+      <category>AI Agents</category>
+      <description>8:19. Week 2 of the multi-agent chatroom — extended capabilities, persistent state between sessions, and improved routing logic. Hosted on YouTube under @PurpleThinkers.</description>
+    </item>
+
+    <item>
+      <title>ACM Coder Agent v0.5.0 (video)</title>
+      <link>https://www.youtube.com/watch?v=jK3gvQnYr8U</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=jK3gvQnYr8U</guid>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Mahmudur R Manna</dc:creator>
+      <category>Demo</category>
+      <category>AI Agents</category>
+      <description>0:53. Short walkthrough of the Agentic Contract Model coder loop — how the agent picks up a task, executes against a contract, and commits the result. Silent. Hosted on YouTube under @PurpleThinkers.</description>
+    </item>
+
+  </channel>
+</rss>

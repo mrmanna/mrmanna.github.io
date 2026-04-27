@@ -1,3 +1,1410 @@
----
-layout: home 
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahmudur R Manna</title>
+  <meta name="description" content="Mahmudur R Manna — engineer and author working on enterprise AI, decision-driven software engineering, and agent-native knowledge modelling. Books, papers, frameworks, code." />
+  <link rel="canonical" href="https://mrmanna.github.io/" />
+  <link rel="alternate" type="application/rss+xml" title="mrmanna.github.io — Now feed" href="feed.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Recent posts on Medium" href="https://medium.com/feed/@mrmanna" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <script>
+    // Apply saved theme before first paint — prevents flash
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      // default is light — no attribute needed
+    })();
+  </script>
+  <meta property="og:title" content="Mahmudur R Manna" />
+  <meta property="og:description" content="Engineer and author. Enterprise AI, decision-driven software engineering, agent-native knowledge modelling." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://mrmanna.github.io/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mahmudur R Manna",
+    "alternateName": "M. R. Manna",
+    "jobTitle": "Engineer and Author",
+    "description": "Works on enterprise software, decision-driven engineering, and the knowledge layer for AI agents. Founder of the DDSE Foundation.",
+    "url": "https://mrmanna.github.io/",
+    "identifier": "https://orcid.org/0009-0009-4252-1545",
+    "sameAs": [
+      "https://orcid.org/0009-0009-4252-1545",
+      "https://github.com/mrmanna",
+      "https://mrmanna.medium.com/",
+      "https://huggingface.co/mrmanna",
+      "https://www.linkedin.com/in/mannaco/",
+      "https://leanpub.com/u/mrmanna",
+      "https://www.amazon.com/stores/author/B0D5QXG5CY/allbooks",
+      "https://ddse-foundation.github.io/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top">
+        <span class="brand-name">Mahmudur R Manna</span>
+        <span class="brand-role">Engineer · Author</span>
+      </a>
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a href="#now">Now</a>
+        <a href="#methods">Methods</a>
+        <a href="#books">Books &amp; papers</a>
+        <a href="#code">Code</a>
+        <a href="#writing">Writing</a>
+        <a href="#arc">Arc</a>
+        <a href="#glossary">Terms</a>
+        <a href="#connect">Connect</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark / light">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+          <circle cx="10" cy="10" r="3.5"/>
+          <path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.22 4.22l1.42 1.42M14.36 14.36l1.42 1.42M4.22 15.78l1.42-1.42M14.36 5.64l1.42-1.42"/>
+        </svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+          <path d="M17 13.5A7.5 7.5 0 0 1 6.5 3a7.5 7.5 0 1 0 10.5 10.5z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="intro wrap">
+      <div class="intro-inner">
+      <div class="intro-text">
+      <p class="eyebrow">Engineer · Author · Bangladesh</p>
+      <h1>Mahmudur R Manna</h1>
+      <p class="lede">
+        I work on enterprise software, decision-driven engineering, and the
+        knowledge layer that AI agents actually need to operate. I write books and
+        papers, run a small open-source foundation, and ship code under that
+        same line of work.
+      </p>
+      <p class="sub">
+        Bangladeshi engineer and author. Two decades across data platforms,
+        cloud-native systems, and SaaS. Founder of the
+        <a href="https://ddse-foundation.github.io/" rel="noopener">DDSE Foundation</a>;
+        author of <em>Enterprise AI: Strategic Blueprint for Purple People</em>
+        and <em>The World of Active Things</em>. Current research direction is
+        <a href="#akmm">agent-native knowledge modelling</a>.
+      </p>
+      <p class="quick-links">
+        <a href="https://orcid.org/0009-0009-4252-1545" rel="noopener">ORCID</a>
+        <a href="https://github.com/mrmanna" rel="noopener">GitHub</a>
+        <a href="https://mrmanna.medium.com/" rel="noopener">Medium</a>
+        <a href="https://huggingface.co/mrmanna" rel="noopener">Hugging Face</a>
+        <a href="https://www.linkedin.com/in/mannaco/" rel="noopener">LinkedIn</a>
+      </p>
+
+      <aside class="start-here" aria-label="Reading paths">
+        <p class="start-here-head">If you're new here, three short paths:</p>
+        <ul>
+          <li><strong>Agent systems &amp; AI engineering.</strong>
+            <a href="https://pub.towardsai.net/ai-state-machine-106387406c5a" rel="noopener">AI &amp; State Machine</a> →
+            <a href="#akmm">AKMM</a> →
+            <a href="https://github.com/ddse-foundation/acm" rel="noopener">ACM</a>.</li>
+          <li><strong>Enterprise AI strategy.</strong>
+            <a href="https://www.amazon.com/Enterprise-AI-Strategic-Blueprint-Purple/dp/B0D5RKHXMY" rel="noopener">Enterprise AI book</a> →
+            <a href="https://ai.gopubby.com/the-missing-middle-of-enterprise-ai-b135381bbb39" rel="noopener">The Missing Middle</a> →
+            <a href="https://mrmanna.medium.com/enterprise-ai-strategy-what-the-industry-is-missing-25a17202e3b7" rel="noopener">Decision Domain Management</a>.</li>
+          <li><strong>Software architecture &amp; platforms.</strong>
+            <a href="https://mrmanna.medium.com/cloudoffice-cockpit-framework-a1111f466eff" rel="noopener">Cockpit</a> →
+            <a href="https://mrmanna.medium.com/cloudoffice-reactive-cloud-a877d899e3e3" rel="noopener">Reactive Cloud</a> →
+            <a href="https://github.com/kareegor/mmfb" rel="noopener">MMFB</a>.</li>
+        </ul>
+      </aside>
+      </div><!-- /.intro-text -->
+      <div class="intro-photo">
+        <img src="assets/visuals/profile.jpeg" alt="Mahmudur R Manna" width="140" height="140">
+      </div>
+      </div><!-- /.intro-inner -->
+    </section>
+
+    <section id="now" class="band">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">01 / Now</p>
+          <h2>Now <a class="anchor" href="#now" aria-label="Permalink to Now">¶</a></h2>
+          <p>What I have published most recently — preprints, articles, and notes,
+             newest first. Each item links directly to the primary source.</p>
+        </header>
+
+        <ol class="feed">
+          <li>
+            <div class="feed-meta"><time datetime="2026-04-26">26 Apr 2026</time> · Preprint</div>
+            <h3><a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">Active Knowledge Modelling Methodology for Agent-Native Knowledgebases</a></h3>
+            <p>
+              A methodology paper proposing AKMM — modelling knowledge as a
+              world of bounded, stateful active things so agents can operate
+              on the case directly instead of reconstructing it from fragments.
+              Bounded methodology evidence from one anchor domain plus two
+              transfer PoCs. Not industrially validated.
+            </p>
+            <p class="row">
+              <a href="https://huggingface.co/blog/mrmanna/active-knowledge-modelling-methodology" rel="noopener">Article <span class="venue">HF</span></a>
+              <a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">DOI <span class="venue">Zenodo</span></a>
+              <a href="https://www.researchgate.net/publication/404203082_Active_Knowledge_Modelling_Methodology_for_Agent-Native_Knowledgebases" rel="noopener">Mirror <span class="venue">ResearchGate</span></a>
+            </p>
+          </li>
+          <li>
+            <div class="feed-meta"><time datetime="2026-04-22">22 Apr 2026</time> · Note</div>
+            <h3><a href="https://cloudoffice.io/ai-reviews-of-the-book-the-world-of-0509f5fda49e" rel="noopener">AI Reviews of <em>The World of Active Things</em> <span class="venue">Purple Thinkers</span></a></h3>
+            <p>
+              Two AI reviewers — Gemini Pro and ChatGPT Pro — were given the book
+              with a structured prompt and asked for an independent critical
+              assessment. Both prompts and full model responses are published
+              verbatim, including the parts that were critical or uncertain.
+              The point is transparency about how AI reads a technical argument,
+              not endorsement of a positive verdict.
+            </p>
+          </li>
+          <li>
+            <div class="feed-meta"><time datetime="2026-04-18">18 Apr 2026</time> · Article</div>
+            <h3><a href="https://pub.towardsai.net/ai-state-machine-106387406c5a" rel="noopener">AI &amp; State Machine <span class="venue">Towards AI</span></a></h3>
+            <p>
+              Toy agents demo well because they execute single tasks on forgiving
+              inputs with no need to recover. Production agents face three harder
+              requirements: recover from partial failures, hand off to other agents
+              or humans with continuity, and remain observable under monitoring.
+              The article argues all three converge on the same structural gap:
+              an agent with no explicit model of its own state and lifecycle
+              cannot do any of them reliably. State machines are not an
+              architectural preference — they are the precondition.
+            </p>
+          </li>
+          <li>
+            <div class="feed-meta"><time datetime="2026-04-15">15 Apr 2026</time> · Article</div>
+            <h3><a href="https://ai.gopubby.com/the-missing-middle-of-enterprise-ai-b135381bbb39" rel="noopener">The Missing Middle of Enterprise AI <span class="venue">AI Advances</span></a></h3>
+            <p>
+              Enterprise AI deployments tend to stall between the strategy deck
+              and the working system — not because the model is wrong and not
+              because the infrastructure is missing, but because the middle layer
+              is never built. That middle layer must do three things neither the
+              strategy nor the model can do alone: preserve decisions explicitly
+              so they survive team and context change; enforce contracts so agent
+              behaviour stays within intended bounds; and assemble context
+              deliberately so the model operates on the right slice of the world
+              rather than an unfiltered retrieval dump.
+            </p>
+          </li>
+          <li>
+            <div class="feed-meta"><time datetime="2026-04-01">01 Apr 2026</time> · Article</div>
+            <h3><a href="https://mrmanna.medium.com/if-you-know-mcp-but-not-tools-this-is-for-you-f193e156abbd" rel="noopener">If You Know MCP but Not Tools, This Is For You <span class="venue">Medium</span></a></h3>
+            <p>
+              MCP is a protocol — a standard way for a system to address an LLM
+              through a defined structure — not synonymous with "MCP server".
+              A tool has two distinct halves: the schema (what the model sees:
+              name, description, parameters, required fields) and the command
+              (what the runtime executes). The model sees no code — only the
+              contract. The article opens with a concrete bug: one missing
+              <code>required</code> field in a tool schema caused a cascading night
+              of parser failures, and the fix was not a better prompt but a
+              correctly specified contract.
+            </p>
+          </li>
+          <li>
+            <div class="feed-meta"><time datetime="2026-03-14">14 Mar 2026</time> · Essay</div>
+            <h3><a href="https://huggingface.co/blog/mrmanna/push" rel="noopener">Pushing Meaning Uphill <span class="venue">HF</span></a></h3>
+            <p>
+              Written as the industry's language began converging on the same
+              ground the frameworks already occupied. Three retrospective sections:
+              DDSE — that AI-assisted software delivery requires structured
+              decision records throughout the SDLC, not only code suggestion;
+              ACM — that agent governance must be designed in as typed contracts
+              and replayable ledgers before deployment, not added after problems
+              appear; and CEF — that context is part of the engineering
+              foundation, not a retrieval utility around it. The essay ends on
+              an honest uncertainty: familiar lifecycle examples (O2C, P2P) may
+              have made the deeper argument about decision spaces too easy to
+              overlook.
+            </p>
+          </li>
+          <li>
+            <div class="feed-meta"><time datetime="2026-02">Feb 2026</time> · Book</div>
+            <h3><a href="https://www.amazon.com/dp/B0GY4XMMN1" rel="noopener">The World of Active Things <span class="venue">Amazon</span></a></h3>
+            <p>
+              The monograph behind AKMM. The argument is that knowledge about
+              a thing becomes meaningful only when you first ask: what belongs
+              to this thing as this thing? That is boundary. Then: how does it
+              begin, move, relate, and end within that boundary? That is
+              lifecycle. Current enterprise systems hold the data but hide the
+              active thing behind fragments, status codes, and scattered process
+              residue. The book develops the seven structural features — Start,
+              End, States, Transitions, Events, Relations, Purpose — and the
+              Identity Index as the minimum through which a thing becomes
+              operable knowledge rather than a record cluster.
+            </p>
+          </li>
+        </ol>
+
+        <p class="more">
+          Subscribe via this site's <a href="feed.xml" rel="noopener">RSS feed</a>,
+          or follow upstream sources directly:
+          <a href="https://medium.com/feed/@mrmanna" rel="noopener">Medium RSS</a>
+          and the <a href="https://huggingface.co/mrmanna" rel="noopener">Hugging Face blog</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="methods" class="band alt">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">02 / Methods</p>
+          <h2>Frameworks &amp; methods <a class="anchor" href="#methods" aria-label="Permalink to Frameworks and methods">¶</a></h2>
+          <p>Six methodologies and frameworks I have authored, covering knowledge
+             engineering for AI agents, AI-assisted software development, agentic
+             system design, context assembly, and enterprise AI strategy.
+             Each card states the scope boundary and links to the published source.</p>
+        </header>
+
+        <div class="cards">
+          <article id="akmm" class="card">
+            <h3>AKMM — Active Knowledge Modelling Methodology</h3>
+            <p class="kind">Methodology · 2026 · DOI &amp; book</p>
+            <p>Models a knowledgebase as a world of Active Things with explicit
+               boundary, lifecycle, identity, lived memory, canonical events, and
+               purpose, so AI agents can operate on the case rather than
+               reconstruct it.</p>
+            <p class="boundary"><strong>Boundary.</strong> Bounded methodology
+               evidence (one anchor, two transfer PoCs). Not an industry standard.</p>
+            <p class="row">
+              <a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">DOI</a>
+              <a href="https://huggingface.co/blog/mrmanna/active-knowledge-modelling-methodology" rel="noopener">Article</a>
+              <a href="https://www.amazon.com/dp/B0GY4XMMN1" rel="noopener">Book</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>DDSE — Decision-Driven Software Engineering</h3>
+            <p class="kind">Methodology · 2025 · Site, DOI &amp; repo</p>
+            <p>An SDLC where significant technical decisions are captured and
+               governed as first-class artefacts (MDD, ADR, EDR, IDR, TDM), so
+               AI-assisted development stays inside human authority and
+               preserves architectural intent.</p>
+            <p class="row">
+              <a href="https://ddse-foundation.github.io/" rel="noopener">Site</a>
+              <a href="https://doi.org/10.5281/zenodo.16462014" rel="noopener">DOI</a>
+              <a href="https://github.com/ddse-foundation/ddse-foundation" rel="noopener">GitHub</a>
+              <a href="https://huggingface.co/blog/mrmanna/ddse-vs-sdd" rel="noopener">DDSE vs SDD</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>ACM — Agentic Contract Model</h3>
+            <p class="kind">Specification &amp; runtime · 2025 · DOI &amp; repo</p>
+            <p>A spec-first contract layer for agentic systems: typed contracts,
+               deterministic execution, and a replayable decision memory so
+               agents can be reasoned about, not just observed.</p>
+            <p class="row">
+              <a href="https://doi.org/10.5281/zenodo.17278997" rel="noopener">DOI</a>
+              <a href="https://github.com/ddse-foundation/acm" rel="noopener">GitHub</a>
+              <a href="https://ddse-foundation.github.io/acm/" rel="noopener">Docs</a>
+              <a href="https://huggingface.co/blog/mrmanna/agentic-contract-model" rel="noopener">Article</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>CEF — Context Engineering Framework</h3>
+            <p class="kind">Framework · 2025 · Repo (research-grade)</p>
+            <p>An ORM-style framework for LLM context: relationship-aware
+               context assembly over knowledge models with graph and vector
+               persistence. Intended as a research foundation, not a hardened
+               product.</p>
+            <p class="row">
+              <a href="https://github.com/ddse-foundation/cef" rel="noopener">GitHub</a>
+              <a href="https://ddse-foundation.github.io/cef/" rel="noopener">Docs</a>
+              <a href="https://huggingface.co/blog/mrmanna/ddse-cef-orm" rel="noopener">Article</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>EAITF — Enterprise AI Transformation Framework</h3>
+            <p class="kind">Book framework · 2024 · DOI</p>
+            <p>The framework behind <em>Enterprise AI: Strategic Blueprint for
+               Purple People</em>: decision-domain inventory, profiling, and an
+               AI Effectiveness Index derived through PCA over scored decision
+               domains.</p>
+            <p class="row">
+              <a href="https://doi.org/10.5281/zenodo.11422132" rel="noopener">DOI</a>
+              <a href="https://leanpub.com/enterpriseaiforpurplepeople" rel="noopener">Leanpub</a>
+              <a href="https://www.amazon.com/Enterprise-AI-Strategic-Blueprint-Purple/dp/B0D5RKHXMY" rel="noopener">Amazon</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Cockpit / Reactive Cloud</h3>
+            <p class="kind">Architecture &amp; framework · 2018–2019 · Repo &amp; articles</p>
+            <p>Java PWA and microservice platform with Netty/Jersey, an API
+               gateway, and event-driven SPA shell — the architectural backbone
+               of the CloudOffice digital workplace work.</p>
+            <p class="row">
+              <a href="https://github.com/mrmanna/cockpit" rel="noopener">GitHub</a>
+              <a href="https://mrmanna.medium.com/cloudoffice-cockpit-framework-a1111f466eff" rel="noopener">Cockpit article</a>
+              <a href="https://mrmanna.medium.com/cloudoffice-reactive-cloud-a877d899e3e3" rel="noopener">Reactive Cloud article</a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="books" class="band">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">03 / Books &amp; papers</p>
+          <h2>Books &amp; papers <a class="anchor" href="#books" aria-label="Permalink to Books and papers">¶</a></h2>
+          <p>Five books and ten preprints I have written, covering knowledge
+             engineering, AI methodology, software architecture, enterprise
+             strategy, philosophy, and governance. Preprints expand with full
+             abstracts; the complete record is on ORCID.</p>
+        </header>
+
+        <div class="two-col">
+          <div>
+            <h3 class="col-head">Books</h3>
+            <ul class="works books">
+              <li>
+                <a class="cover" href="https://www.amazon.com/dp/B0GY4XMMN1" rel="noopener" aria-label="The World of Active Things on Amazon" tabindex="-1">
+                  <img src="assets/covers/world-active-things.jpg" alt="The World of Active Things book cover" loading="lazy" width="80" height="120" />
+                </a>
+                <div class="book-info">
+                  <strong><a href="https://www.amazon.com/dp/B0GY4XMMN1" rel="noopener">The World of Active Things</a></strong>
+                  <span class="dim">
+                    Apr 2026 · 81 pp · Monograph behind AKMM. Argues knowledge
+                    is better modelled through bounded, stateful active realities
+                    than through static records and documents.
+                    <br>#99 in Data Modeling &amp; Design.
+                    <br><a href="https://www.amazon.com/dp/B0GX2VP8RS" rel="noopener">Kindle</a> ·
+                    <a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">DOI</a>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <a class="cover" href="https://www.amazon.com/Enterprise-AI-Strategic-Blueprint-Purple/dp/B0D5RKHXMY" rel="noopener" aria-label="Enterprise AI book on Amazon" tabindex="-1">
+                  <img src="assets/covers/enterprise-ai.jpg" alt="Enterprise AI: Strategic Blueprint for Purple People book cover" loading="lazy" width="80" height="120" />
+                </a>
+                <div class="book-info">
+                  <strong><a href="https://www.amazon.com/Enterprise-AI-Strategic-Blueprint-Purple/dp/B0D5RKHXMY" rel="noopener">Enterprise AI: Strategic Blueprint for Purple People</a></strong>
+                  <span class="dim">
+                    May 2024 · 181 pp · Introduces the Enterprise AI Transformation
+                    Framework (EAITF): decision-domain profiling, Principal Component
+                    Analysis, and an AI Effectiveness Index with a Python walkthrough.
+                    <br><span class="book-rating"><span class="stars">★★★★☆</span> 3.8 · 5 reviews</span>
+                    <br><a href="https://leanpub.com/enterpriseaiforpurplepeople" rel="noopener">Leanpub</a> ·
+                    <a href="https://doi.org/10.5281/zenodo.11422132" rel="noopener">DOI</a>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <a class="cover" href="https://leanpub.com/esgdata" rel="noopener" aria-label="ESG Data Explained on Leanpub" tabindex="-1">
+                  <img src="assets/covers/esg-data.jpg" alt="ESG Data Explained book cover" loading="lazy" width="80" height="120" />
+                </a>
+                <div class="book-info">
+                  <strong><a href="https://leanpub.com/esgdata" rel="noopener">ESG Data Explained</a></strong>
+                  <span class="dim">
+                    2023 · A hands-on reference for professionals, policymakers,
+                    and investors: environmental, social, and governance metrics with
+                    Python calculation examples and global case studies including
+                    India and Bangladesh.
+                    <br>Companion: <a href="https://mrmanna.medium.com/esg-data-explained-a-comprehensive-guide-to-metrics-calculation-and-reporting-part-i-ba5479e527ce" rel="noopener">Part I</a> ·
+                    <a href="https://mrmanna.medium.com/esg-data-explained-a-comprehensive-guide-to-metrics-calculation-and-reporting-part-ii-4ff8b891b764" rel="noopener">II</a> ·
+                    <a href="https://mrmanna.medium.com/esg-data-explained-a-comprehensive-guide-to-metrics-calculation-and-reporting-part-iii-dc517760426c" rel="noopener">III</a>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <a class="cover" href="https://www.amazon.com/ELIAS-Meaning-Mahmudur-Rahman-Manna/dp/B0DFV75SG7" rel="noopener" aria-label="ELIAS: The Quest for Meaning on Amazon" tabindex="-1">
+                  <img src="assets/covers/elias.jpg" alt="ELIAS: The Quest for Meaning book cover" loading="lazy" width="80" height="120" />
+                </a>
+                <div class="book-info">
+                  <strong><a href="https://www.amazon.com/ELIAS-Meaning-Mahmudur-Rahman-Manna/dp/B0DFV75SG7" rel="noopener">ELIAS: The Quest for Meaning</a></strong>
+                  <span class="dim">
+                    Aug 2024 · 100 pp · A novella-style dialogue where a researcher
+                    studies toxic workplace behaviours alongside Elias Thorn — covering
+                    distrust, scarcity mindset, and the search for purpose. Reviewed
+                    by Gabriel Santos for Readers' Favorite.
+                    <br>#2,372 in Behavioural Psychology.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <a class="cover" href="https://www.amazon.com/there-seasons-Mahmudur-Rahman-Manna-ebook/dp/B0DVJ73Z9J" rel="noopener" aria-label="There Are Seasons of the Mind on Amazon" tabindex="-1">
+                  <img src="assets/covers/seasons-mind.jpg" alt="There Are Seasons of the Mind book cover" loading="lazy" width="80" height="120" />
+                </a>
+                <div class="book-info">
+                  <strong><a href="https://www.amazon.com/there-seasons-Mahmudur-Rahman-Manna-ebook/dp/B0DVJ73Z9J" rel="noopener">There Are Seasons of the Mind</a></strong>
+                  <span class="dim">
+                    Feb 2025 · 43 pp · Kindle. Introduces the PEPPA framework
+                    (Peace as Purpose, Emotional Intelligence, Proactivity, Patience,
+                    Acceptance) — integrating entropy, inertia, and equilibrium from
+                    physics with Stoic and Frankl-inspired principles for human
+                    resolve.
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="col-head">Papers &amp; specifications</h3>
+            <ul class="works papers">
+
+              <li class="group-label">Methodology &amp; specification</li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">Active Knowledge Modelling Methodology for Agent-Native Knowledgebases</a></strong>
+                    <span class="dim">Apr 2026 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    Proposes that knowledge engineering for agents requires boundary analysis — defining where a thing starts, ends, relates, and what its purpose is — as the first modelling step, before lifecycle or state work begins. A knowledgebase composed of Active Things gives an agent an entry point into a case rather than forcing reconstruction from disconnected records and documents. Seven structural features (Start, End, States, Transitions, Events, Relations, Purpose) constitute the Identity Index of any Active Thing. Evidence is bounded to one anchor domain plus two transfer PoCs; not industrially validated.
+                    <br><a href="https://huggingface.co/blog/mrmanna/active-knowledge-modelling-methodology" rel="noopener">Article</a> · <a href="https://www.amazon.com/dp/B0GY4XMMN1" rel="noopener">Book</a>
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.17278997" rel="noopener">Agentic Contract Model — Core Specification v0.5</a></strong>
+                    <span class="dim">Oct 2025 · specification</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    Where most agent frameworks treat goals, plans, and tools as prompt constructs, ACM defines them as typed artefacts with explicit lifecycle states, guard conditions, capability maps, and a replayable ledger. The effect is that agent behaviour can be inspected, replayed, and reasoned about — not only observed after the fact. The specification includes a TypeScript reference runtime and is published under the DDSE Foundation.
+                    <br><a href="https://github.com/ddse-foundation/acm" rel="noopener">GitHub</a> · <a href="https://huggingface.co/blog/mrmanna/agentic-contract-model" rel="noopener">Article</a>
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.16462014" rel="noopener">Decision-Driven Software Engineering for AI-Assisted Development</a></strong>
+                    <span class="dim">Jul 2025 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    Argues that AI-assisted development fails when the AI lacks the structured context experienced engineers carry implicitly. DDSE's answer is to make significant technical decisions — architectural, engineering, incident, technology — first-class artefacts (ADR, EDR, IDR, TDM, MDD) that persist across team changes and remain the explicit boundary within which AI operates. Humans retain authority; the AI uses decision records as context, not discretion.
+                    <br><a href="https://ddse-foundation.github.io/" rel="noopener">Foundation site</a> · <a href="https://huggingface.co/blog/mrmanna/ddse-vs-sdd" rel="noopener">DDSE vs SDD</a>
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.15031473" rel="noopener">A Dynamic Neuro-Symbolic Approach to Bridging Conceptual Knowledge Gaps</a></strong>
+                    <span class="dim">Mar 2025 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    A hybrid architecture for closing gaps in structured knowledge: a symbolic knowledge graph identifies where conceptual connective tissue is missing, GPT is queried incrementally to propose bridge concepts, and the proposed chain is validated and reintegrated into the graph. The cycle iterates until the gap narrows below a threshold. Frames the problem as one of convergence, not generation — the LLM fills specific holes rather than generating freeform explanations.
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.11784521" rel="noopener">Integrating Machine Learning into Established Application Architectures</a></strong>
+                    <span class="dim">Jun 2024 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    A practical mapping of ML integration patterns for enterprise engineers working with existing Java/microservice systems. Covers sidecar inference, async event-driven ML triggers, API bridge patterns, and the deployment lifecycle differences between ML models and conventional software artefacts. Addresses the common failure mode of treating an ML model as a library call rather than as a separately versioned, separately deployed runtime.
+                  </p>
+                </details>
+              </li>
+
+              <li class="group-label">Philosophy, governance &amp; work</li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.13887022" rel="noopener">Thinking GPT — Inspired by Descartes' Discourse on the Method</a></strong>
+                    <span class="dim">Oct 2024 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    Applies Descartes' four rules — decompose, order, enumerate, review — as a reasoning discipline imposed on GPT. The central question is whether a Cartesian audit structure (accept nothing unexamined; divide each difficulty; proceed from simple to complex; enumerate to ensure completeness) produces more reliable, less confabulated responses on complex reasoning tasks than open-ended prompting. A methodological experiment in structured epistemic discipline applied to large language models.
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.13843668" rel="noopener">PEPPA Framework — Physics, Philosophy, Psychology for Human Resolve</a></strong>
+                    <span class="dim">Sep 2024 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    The DOI-backed preprint behind <em>There Are Seasons of the Mind</em>. Models human mental resilience through three physics metaphors: entropy (sustained effort without deliberate renewal degrades capability), inertia (initiating change requires activation energy beyond intention alone), and equilibrium (performance requires balance between challenge and recovery). Integrated with Stoic self-regulation and Viktor Frankl's will-to-meaning as practical counterweights to each physical force.
+                    <br><a href="https://www.amazon.com/there-seasons-Mahmudur-Rahman-Manna-ebook/dp/B0DVJ73Z9J" rel="noopener">Book</a>
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.13324186" rel="noopener">Reimagining Value: Harnessing the Attention Economy for a Transparent and Engaged Society</a></strong>
+                    <span class="dim">Aug 2024 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    Argues that the engagement-maximising design of current social platforms is not technologically inevitable — it is a deliberate architectural choice. Proposes an alternative set of design principles oriented toward transparency, contribution, and civic participation that could redirect the same attention infrastructure toward measurably better social outcomes, without requiring platform replacement.
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.13310258" rel="noopener">The Productivity Paradox</a></strong>
+                    <span class="dim">Aug 2024 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    Distinguishes between activity (visible motion through tools, meetings, and status updates) and productive work (directed effort that moves a stated goal forward). Examines the structural conditions — notification design, meeting culture, tooling overhead, and fragmented context — that make high-activity, low-output environments self-reinforcing, and why individual willpower is an insufficient corrective.
+                  </p>
+                </details>
+              </li>
+
+              <li>
+                <details>
+                  <summary>
+                    <strong><a href="https://doi.org/10.5281/zenodo.13308576" rel="noopener">Generation Z and the Single Neck to Choke Philosophy</a></strong>
+                    <span class="dim">Aug 2024 · preprint</span>
+                  </summary>
+                  <p class="paper-abstract">
+                    The "single neck to choke" management model concentrates accountability at one person as a mechanism of control. This paper argues the model is structurally incompatible with networked, cross-functional work — and with Gen Z's expectation of distributed ownership — because it optimises for blame assignment over problem resolution, damages trust faster than it creates accountability, and collapses under the ambiguity of modern product delivery.
+                  </p>
+                </details>
+              </li>
+
+            </ul>
+            <p class="more">Full record on <a href="https://orcid.org/0009-0009-4252-1545" rel="noopener">ORCID</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="code" class="band alt">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">04 / Code</p>
+          <h2>Code <a class="anchor" href="#code" aria-label="Permalink to Code">¶</a></h2>
+          <p>Public repositories I maintain or have authored. DDSE Foundation
+             repos are open-source infrastructure I built for the methodology;
+             personal repos span platform architecture experiments, reactive
+             frameworks, and research tooling.</p>
+        </header>
+
+        <ul class="repo-grid">
+
+          <li class="repo-group-head">DDSE Foundation</li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10 2L3 5v6c0 4 3.5 6.5 7 7 3.5-.5 7-3 7-7V5L10 2z"/>
+                  <path d="M7 10l2 2 4-4"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/ddse-foundation/acm" rel="noopener">ddse-foundation/acm</a>
+                <div class="repo-kind">Specification &amp; runtime · TypeScript</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              Agentic Contract Model — a spec-first contract layer for agentic
+              systems. Where most agent frameworks treat goals, plans, and tools
+              as prompt constructs, ACM defines them as typed artefacts with
+              explicit lifecycle states, guard conditions, capability maps, and
+              a replayable decision ledger. Agent behaviour can be inspected
+              and replayed, not just observed after the fact. Ships a TypeScript
+              reference runtime under the DDSE Foundation.
+            </p>
+            <div class="repo-foot">
+              <span class="tag">TypeScript</span>
+              <a href="https://github.com/ddse-foundation/acm" rel="noopener">GitHub</a>
+              <a href="https://ddse-foundation.github.io/acm/" rel="noopener">Docs</a>
+              <a href="https://huggingface.co/blog/mrmanna/agentic-contract-model" rel="noopener">Article</a>
+              <a href="https://doi.org/10.5281/zenodo.17278997" rel="noopener">DOI</a>
+            </div>
+          </li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 6l8-4 8 4-8 4-8-4z"/>
+                  <path d="M2 10l8 4 8-4"/>
+                  <path d="M2 14l8 4 8-4"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/ddse-foundation/cef" rel="noopener">ddse-foundation/cef</a>
+                <div class="repo-kind">Framework · Java · Research edition</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              Context Engineering Framework — an ORM-style layer for LLM context
+              assembly. Moves beyond retrieval by modelling knowledge as typed
+              entities with relationships, lifecycle, and semantic distance. Combines
+              graph and vector persistence, relationship navigation, parser systems,
+              and LLM integration so that context is assembled deliberately
+              rather than retrieved as a flat embedding result. Marked as a
+              research edition; not enterprise-hardened.
+            </p>
+            <div class="repo-foot">
+              <span class="tag">Java</span>
+              <a href="https://github.com/ddse-foundation/cef" rel="noopener">GitHub</a>
+              <a href="https://ddse-foundation.github.io/cef/" rel="noopener">Docs</a>
+              <a href="https://huggingface.co/blog/mrmanna/ddse-cef-orm" rel="noopener">Article</a>
+            </div>
+          </li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="14" height="14" rx="2"/>
+                  <path d="M7 7h6M7 10h6M7 13h4"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/ddse-foundation/ddse-foundation" rel="noopener">ddse-foundation/ddse-foundation</a>
+                <div class="repo-kind">Templates &amp; reference · Python</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              DDSE implementation templates, decision record formats, and worked
+              examples for teams adopting Decision-Driven Software Engineering.
+              Covers the full set of DDSE artefact types — Architectural Decision
+              Record (ADR), Engineering Decision Record (EDR), Incident Decision
+              Record (IDR), Technology Decision Map (TDM), and Master Decision
+              Document (MDD) — with guidance on how each fits into an
+              AI-assisted development workflow where humans retain authority.
+            </p>
+            <div class="repo-foot">
+              <span class="tag">Python</span>
+              <a href="https://github.com/ddse-foundation/ddse-foundation" rel="noopener">GitHub</a>
+              <a href="https://ddse-foundation.github.io/" rel="noopener">Foundation site</a>
+              <a href="https://doi.org/10.5281/zenodo.16462014" rel="noopener">DOI</a>
+            </div>
+          </li>
+
+          <li class="repo-group-head">Platform &amp; cloud engineering</li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="16" height="4" rx="1"/>
+                  <rect x="2" y="9" width="16" height="4" rx="1"/>
+                  <circle cx="15" cy="5" r="0.8" fill="currentColor" stroke="none"/>
+                  <circle cx="15" cy="11" r="0.8" fill="currentColor" stroke="none"/>
+                  <path d="M2 15h16M6 15v2M14 15v2"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/mrmanna/cockpit" rel="noopener">mrmanna/cockpit</a>
+                <div class="repo-kind">Platform experiment · Java · 2018–2019</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              Java PWA and microservice development platform from the CloudOffice
+              digital workplace work. The architecture centred on a Netty 4
+              HTTP/2 API gateway routing to Jersey microservices, with a
+              bck2brwsr-compiled browser-side SPA shell, a gadget SDK for
+              composable UI modules, and a SASS/JSON theme and layout builder.
+              A 2018–2019 article series documents the design choices behind
+              the gateway, reactive push communication, stateless process claims,
+              and session/token security.
+            </p>
+            <div class="repo-foot">
+              <span class="tag">Java</span>
+              <a href="https://github.com/mrmanna/cockpit" rel="noopener">GitHub</a>
+              <a href="https://mrmanna.medium.com/cloudoffice-cockpit-framework-a1111f466eff" rel="noopener">Cockpit article</a>
+              <a href="https://mrmanna.medium.com/cloudoffice-reactive-cloud-a877d899e3e3" rel="noopener">Reactive Cloud article</a>
+            </div>
+          </li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="10" cy="4" r="2"/>
+                  <circle cx="4" cy="15" r="2"/>
+                  <circle cx="16" cy="15" r="2"/>
+                  <path d="M10 6v4M8.5 8.5L5.2 13M11.5 8.5l3.3 4.5M6 15h8"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/kareegor/mmfb" rel="noopener">kareegor/mmfb</a>
+                <div class="repo-kind">Cloud-agnostic ecosystem · Java · 2021</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              Multi micro-frontends and backends — a five-session build of a
+              cloud-agnostic microservice ecosystem. Stack: Spring Boot services,
+              Traefik reverse proxy, Keycloak auth, Consul service discovery,
+              Kafka messaging, Angular microfrontends, Prometheus and Grafana
+              observability. The central constraint is portability: the same
+              system runs on a developer machine, in Docker Swarm, and on any
+              Kubernetes provider without environment-specific changes.
+              Original repository under the kareegor organisation (also owned).
+            </p>
+            <div class="repo-foot">
+              <span class="tag">Java</span>
+              <a href="https://github.com/kareegor/mmfb" rel="noopener">GitHub</a>
+              <a href="https://mrmanna.medium.com/cloud-agnostic-microfrontends-and-microservices-architecture-fcf53feb815f" rel="noopener">Article</a>
+            </div>
+          </li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 10h3l2-5 2 10 2-5h3M16 10h1"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/mrmanna/agnosticmlflow" rel="noopener">mrmanna/agnosticmlflow</a>
+                <div class="repo-kind">ML pipeline experiment · Python · 2025</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              Cloud-agnostic ML pipelines extending the same portability
+              constraint from microservices into the ML layer. Uses Apache
+              Beam with an Apache Flink runner on Minikube and MinIO as object
+              storage, so the same pipeline code runs locally and can target
+              any cloud-hosted Beam runner without vendor lock-in. Companion
+              to the nine-part cloud-agnostic platforms article series.
+            </p>
+            <div class="repo-foot">
+              <span class="tag">Python</span>
+              <a href="https://github.com/mrmanna/agnosticmlflow" rel="noopener">GitHub</a>
+              <a href="https://ai.gopubby.com/i-spent-a-week-building-the-foundation-for-cloud-agnostic-ml-pipelines-heres-everything-you-f147bfb75ad0" rel="noopener">Article</a>
+            </div>
+          </li>
+
+          <li class="repo-group-head">Experiments &amp; utilities</li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 7v6M8 4v12M11 6v8M14 4v12M17 7v6"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/mrmanna/Nvidia_Nemo_FastPitch_TTS_Example" rel="noopener">mrmanna/Nvidia_Nemo_FastPitch_TTS_Example</a>
+                <div class="repo-kind">Worked example · Python · 2024</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              Step-by-step build of a fully local, offline text-to-speech system
+              using Nvidia NeMo and the FastPitch acoustic model. Documents the
+              full pipeline from model download and environment setup through
+              inference and audio output — useful for engineers who need
+              production-grade TTS synthesis without a cloud dependency or
+              per-request API cost.
+            </p>
+            <div class="repo-foot">
+              <span class="tag">Python</span>
+              <a href="https://github.com/mrmanna/Nvidia_Nemo_FastPitch_TTS_Example" rel="noopener">GitHub</a>
+            </div>
+          </li>
+
+          <li class="repo-card">
+            <div class="repo-card-head">
+              <div class="repo-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="10" width="10" height="7" rx="1.5"/>
+                  <path d="M7 10V7a3 3 0 016 0v3"/>
+                  <circle cx="10" cy="13.5" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+              </div>
+              <div>
+                <a class="repo-name" href="https://github.com/mrmanna/immutable-object-builder" rel="noopener">mrmanna/immutable-object-builder</a>
+                <div class="repo-kind">Design-pattern utility · Java · 2023</div>
+              </div>
+            </div>
+            <p class="repo-desc">
+              Builder pattern implementation using Java functional interfaces to
+              enforce strict immutability after construction. Rather than
+              relying on defensive copying or convention, the pattern makes
+              mutation structurally impossible through the interface contract
+              itself — a useful reference for teams designing domain objects
+              that must be safe across concurrent and event-sourced contexts.
+            </p>
+            <div class="repo-foot">
+              <span class="tag">Java</span>
+              <a href="https://github.com/mrmanna/immutable-object-builder" rel="noopener">GitHub</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section id="demos" class="band">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">05 / Demos &amp; talks</p>
+          <h2>Working notes, on camera</h2>
+          <p>Short, unproduced recordings &mdash; agent runs, architecture
+             walkthroughs, framework demos. Hosted on YouTube under
+             <em><a href="https://www.youtube.com/@PurpleThinkers" rel="noopener">@PurpleThinkers</a></em>;
+             included here as artifacts of the working method, not as productions.</p>
+        </header>
+
+        <div class="demos">
+
+          <section class="demo-group" aria-labelledby="demos-ai">
+            <h3 id="demos-ai">AI &amp; agent systems</h3>
+            <ul class="demo-list">
+              <li>
+                <a href="https://www.youtube.com/watch?v=voF6x1aV_z4" rel="noopener">Capability OS &mdash; Omni Agent demo</a>
+                <span class="demo-dur">41:15</span>
+                <span class="demo-note">End-to-end run of the agent stack &mdash; orchestration, tools, memory.</span>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=jK3gvQnYr8U" rel="noopener">ACM Coder Agent v0.5.0</a>
+                <span class="demo-dur">0:53</span>
+                <span class="demo-note">Short walkthrough of the Adaptive Capability Model coder loop. Silent.</span>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=0IzQgqFSdvo" rel="noopener">DDSE in Action</a>
+                <span class="demo-dur">4:46</span>
+                <span class="demo-note">Decision-driven software engineering, applied on a small case.</span>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=kidJABlhHk8" rel="noopener">Neural-Symbolic Models &mdash; companion to the paper</a>
+                <span class="demo-dur">3:23</span>
+                <span class="demo-note">Visual companion to the agent-architecture paper.</span>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=GlKbS05ZWp0" rel="noopener">Multi-Agent Chatroom &mdash; Week 2</a>
+                <span class="demo-dur">8:19</span>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=TDFDKpYzgSE" rel="noopener">Multi-Agent Chatroom &mdash; Day 1</a>
+                <span class="demo-dur">9:15</span>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=ohrfiC_yhq8" rel="noopener">Multi-Agent Chatroom &mdash; Day 4</a>
+                <span class="demo-dur">1:15</span>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=kX5SykY0OhM" rel="noopener">Parallel Deep Research with DeepSeek R1</a>
+                <span class="demo-dur">2:59</span>
+              </li>
+            </ul>
+          </section>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="writing" class="band alt">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">06 / Writing</p>
+          <h2>Writing <a class="anchor" href="#writing" aria-label="Permalink to Writing">¶</a></h2>
+          <p>Over 80 pieces I have written across enterprise AI, software
+             architecture, platforms, leadership, governance, ESG, and philosophy.
+             Entry points by topic below; the full corpus is on
+             <a href="https://mrmanna.medium.com/lists" rel="noopener">Medium</a>
+             across 13 curated collections.</p>
+        </header>
+
+        <div class="topics">
+          <article>
+            <h3>Enterprise AI strategy</h3>
+            <ul>
+              <li><a href="https://mrmanna.medium.com/list/enterprise-ai-strategy-da8cba01d11c" rel="noopener">Enterprise AI Strategy list (Medium)</a></li>
+              <li><a href="https://mrmanna.medium.com/enterprise-ai-strategy-what-the-industry-is-missing-25a17202e3b7" rel="noopener">What the industry is missing: Decision Domain Management</a></li>
+              <li><a href="https://mrmanna.medium.com/enterprise-ai-strategy-ai-agents-vs-ai-models-f92fa1a22823" rel="noopener">AI Agents vs AI Models</a></li>
+              <li><a href="https://mrmanna.medium.com/how-to-become-an-ai-leader-for-an-enterprise-a-guide-to-crafting-an-ai-strategy-4568791da973" rel="noopener">How to become an AI leader for an enterprise</a></li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>AI engineering</h3>
+            <ul>
+              <li><a href="https://mrmanna.medium.com/ai-agents-is-just-marketing-for-software-engineers-this-is-event-driven-architecture-agentic-311d919583b1" rel="noopener">"AI Agents" is just marketing — it's event-driven architecture</a></li>
+              <li><a href="https://mrmanna.medium.com/from-observer-pattern-to-agentic-architecture-an-evolution-without-fear-174da0a5b626" rel="noopener">From observer pattern to agentic architecture</a></li>
+              <li><a href="https://huggingface.co/blog/mrmanna/agentic-contract-model" rel="noopener">Agentic Contract Model — release explainer</a></li>
+              <li><a href="https://huggingface.co/blog/mrmanna/ddse-cef-orm" rel="noopener">CEF — an ORM for context engineering in LLM systems</a></li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Cloud-agnostic platforms &amp; MLOps</h3>
+            <ul>
+              <li><a href="https://mrmanna.medium.com/cloud-agnostic-microfrontends-and-microservices-architecture-fcf53feb815f" rel="noopener">Cloud-agnostic microfrontends and microservices</a></li>
+              <li><a href="https://mrmanna.medium.com/part-1-mastering-cloud-agnostic-multi-cloud-platforms-de88bdd2cf3a" rel="noopener">Mastering cloud-agnostic multi-cloud platforms (9 parts)</a></li>
+              <li><a href="https://ai.gopubby.com/i-spent-a-week-building-the-foundation-for-cloud-agnostic-ml-pipelines-heres-everything-you-f147bfb75ad0" rel="noopener">A week building cloud-agnostic ML pipelines</a></li>
+              <li><a href="https://pub.towardsai.net/integrating-apache-beam-sdk-harness-as-sidecars-a-proven-architecture-with-codebase-c614eb481093" rel="noopener">Apache Beam SDK harness as sidecars</a></li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Software architecture</h3>
+            <ul>
+              <li><a href="https://mrmanna.medium.com/cloudoffice-cockpit-framework-a1111f466eff" rel="noopener">Cloudoffice Cockpit Framework</a></li>
+              <li><a href="https://mrmanna.medium.com/cloudoffice-reactive-cloud-a877d899e3e3" rel="noopener">Cloudoffice Reactive Cloud</a></li>
+              <li><a href="https://www.linkedin.com/pulse/unlock-modern-portal-face-your-enterprise-manna-mahmud" rel="noopener">Unlock the modern portal: face of your enterprise</a></li>
+              <li><a href="https://cloudoffice.io/scopes-the-art-of-web-application-design-1e66d94e2db5" rel="noopener">Scopes — the art of web application design</a></li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Leadership &amp; engineering management</h3>
+            <ul>
+              <li><a href="https://cloudoffice.io/iteration-the-true-core-of-modern-development-beyond-agile-methodology-ef50d051bdc4" rel="noopener">Misinterpretations of Agile</a></li>
+              <li><a href="https://cloudoffice.io/dates-are-calculations-not-commitments-edfacd7e5e90" rel="noopener">Dates are calculations, not commitments</a></li>
+              <li><a href="https://cloudoffice.io/from-the-top-down-how-leadership-sets-the-tone-for-a-blame-game-culture-62739f7da75f" rel="noopener">Single Neck to Choke: blame-game culture</a></li>
+              <li><a href="https://cloudoffice.io/4-pillars-of-the-art-of-delegation-ensuring-due-diligence-f135348f997c" rel="noopener">Four pillars of delegation</a></li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Philosophy, governance &amp; meaning</h3>
+            <ul>
+              <li><a href="https://huggingface.co/blog/mrmanna/push" rel="noopener">Pushing meaning uphill</a></li>
+              <li><a href="https://mrmanna.medium.com/the-power-of-documentation-against-tyranny-9e5df6924c15" rel="noopener">The power of documentation against tyranny</a></li>
+              <li><a href="https://cloudoffice.io/enhancing-human-resolve-introducing-the-peppa-framework-099773288292" rel="noopener">PEPPA Framework — enhancing human resolve</a></li>
+              <li><a href="https://mrmanna.medium.com/the-missing-piece-in-ai-ethics-understanding-need-and-its-implications-94bc25fe0990" rel="noopener">The missing piece in AI ethics: understanding "need"</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="arc" class="band">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">07 / Arc</p>
+          <h2>Arc <a class="anchor" href="#arc" aria-label="Permalink to Arc">¶</a></h2>
+          <p>Twenty years of the same founding-architect pattern: I enter a
+             greenfield, form the team, ship the platform, and hand over a
+             running system. Five phases, ten engagements, six countries.</p>
+        </header>
+
+        <ol class="arc">
+
+          <li>
+            <span class="period">2004–2008</span>
+            <div>
+              <strong>Early data tooling &amp; teaching</strong>
+              <div class="arc-chips">
+                <span class="arc-chip">🇬🇧 UK</span>
+                <span class="arc-chip">🇧🇩 Bangladesh</span>
+                <span class="arc-chip">Oracle 9i · Java Swing</span>
+                <span class="arc-chip">BI tooling · Academia</span>
+              </div>
+              <ul class="arc-companies">
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Creator Tech</span>
+                    <span class="arc-co-role">Programmer &nbsp;·&nbsp; 2003–2005 &nbsp;·&nbsp; 🇧🇩 BD</span>
+                  </div>
+                  <p class="arc-co-desc">Database-driven enterprise applications; grounded early architecture instincts in schema design, SQL-heavy ORM patterns, and application-layer data access.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">London Metropolitan University</span>
+                    <span class="arc-co-role">Final-year project &nbsp;·&nbsp; 2004–2005 &nbsp;·&nbsp; 🇬🇧 UK</span>
+                  </div>
+                  <p class="arc-co-desc">Designed and built a <strong>Data Warehousing Studio</strong> — an IDE for schema design, ETL pipeline construction, and semantic-layer modelling on Oracle 9i with Java Swing. National newspaper recognition.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Daffodil Institute of IT</span>
+                    <span class="arc-co-role">Lecturer, CS &amp; Advanced Databases &nbsp;·&nbsp; 2006–2008 &nbsp;·&nbsp; 🇧🇩 BD</span>
+                  </div>
+                  <p class="arc-co-desc">Supervised the highest-performing final-year engineering projects in the programme; returned later as mentor and advisor. First evidence of the teaching-while-building pattern that continues throughout the career.</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <span class="period">2008–2014</span>
+            <div>
+              <strong>BI, portals &amp; global delivery</strong>
+              <div class="arc-chips">
+                <span class="arc-chip">🇧🇩 Bangladesh</span>
+                <span class="arc-chip">🇫🇮 Finland</span>
+                <span class="arc-chip">🇳🇱 Netherlands</span>
+                <span class="arc-chip">🇮🇳 India</span>
+                <span class="arc-chip ac">Up to 28 engineers</span>
+                <span class="arc-chip">Pentaho BI · Liferay · J2EE · ERP</span>
+              </div>
+              <ul class="arc-companies">
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Mananco Microsystem Inc.</span>
+                    <span class="arc-co-role">Founder &nbsp;·&nbsp; 2008–2009 &nbsp;·&nbsp; 🇧🇩 BD (global delivery)</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">10+ engineers</span>
+                    <span class="arc-chip">50+ global projects</span>
+                  </div>
+                  <p class="arc-co-desc">Bootstrapped a BI and portal services studio with 10+ second- and third-year CIS students. Delivered 50+ client projects worldwide via oDesk and Elance. Stack: Pentaho BI, Liferay, Java, PHP. First iteration of the team-building-from-scratch pattern.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Codemate Oy</span>
+                    <span class="arc-co-role">Software Architect &amp; Scrum Master &nbsp;·&nbsp; 2010 &nbsp;·&nbsp; 🇫🇮 Finland / 🇧🇩 BD offshore</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">12-engineer offshore Java team</span>
+                    <span class="arc-chip">Oulu Municipality</span>
+                  </div>
+                  <p class="arc-co-desc">Founding architect of the Oulu Municipality collaboration portal. Prototyped in 3 months, won the engagement; built a 12-engineer Java offshore team in 9 months. Liferay, Alfresco ECM for document management, Openfire XMPP for real-time messaging, CAS + OpenLDAP single sign-on.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Zensar Technologies</span>
+                    <span class="arc-co-role">Liferay Team Lead &nbsp;·&nbsp; 2011 &nbsp;·&nbsp; 🇳🇱 Amsterdam / 🇮🇳 Pune</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">10-engineer Pune team</span>
+                    <span class="arc-chip">53 countries · 17 languages</span>
+                  </div>
+                  <p class="arc-co-desc">Team lead and main architect for the Bugaboo global collaboration portal: 53 countries, 17 languages. Built a 10-engineer Pune team in 8 months. Led architecture, technology roadmap, integration strategy, code reviews, and on-site training across Amsterdam and India.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">EUSIA Ltd. / Dzoin</span>
+                    <span class="arc-co-role">Founder &amp; Solutions Architect &nbsp;·&nbsp; 2012 &nbsp;·&nbsp; 🇳🇱 NL / 🇧🇩 BD</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">7+ engineers recruited</span>
+                  </div>
+                  <p class="arc-co-desc">Founding architect of Dzoin — a multi-million Euro real-estate management platform for Dutch property associations. Cloud-agnostic DevOps environment; modules: document management, CRM, social calendars, project tracking, site builder, content management. Built with JTeam (later Orange11, ElasticSearch-associated).</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Newgen Technology Ltd.</span>
+                    <span class="arc-co-role">Head of Enterprise Architecture (Babylon Group) &nbsp;·&nbsp; 2013–2014 &nbsp;·&nbsp; 🇧🇩 BD</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">28-engineer Java team</span>
+                    <span class="arc-chip">19 factories</span>
+                  </div>
+                  <p class="arc-co-desc">Founding technical leader for a ground-up manufacturing ERP spanning Babylon Group's 19 factories. Recruited and led a 28-developer Java team from mixed seniority. Introduced Agile methodologies, CI/CD pipelines, environment virtualisation, and BI/analytics capability.</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <span class="period">2014–2019</span>
+            <div>
+              <strong>CloudOffice — digital workspace platform</strong>
+              <div class="arc-chips">
+                <span class="arc-chip">🇧🇩 Bangladesh</span>
+                <span class="arc-chip">🇳🇱 Netherlands JV</span>
+                <span class="arc-chip ac">16 engineers</span>
+                <span class="arc-chip">SaaS · Java PWA · Microservices · HTTP/2</span>
+              </div>
+              <ul class="arc-companies">
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Cloudoffice</span>
+                    <span class="arc-co-role">Co-founder &amp; Founding Architect &nbsp;·&nbsp; Nov 2014–May 2019 &nbsp;·&nbsp; 🇧🇩 BD / 🇳🇱 NL JV</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">16-engineer team</span>
+                    <span class="arc-chip">Mental health network → generic digital workspace</span>
+                  </div>
+                  <p class="arc-co-desc">Started as founding architect of a national networking platform for Dutch mental health institutes; evolved into a generic cloud-agnostic digital workspace platform. Java JSON-service backend, multiple PWA frontends, Netty 4 HTTP/2 API gateway (Cockpit), Jersey microservice SDK, bck2brwsr browser model, drag-and-drop site builder, document management, workflow approval, real-time GPS tracking, form builder, and reporting dashboards. Integrated with Liferay and Apache OFBiz for enterprise extension. Recruited and grew the 16-engineer team.</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <span class="period">2019–2022</span>
+            <div>
+              <strong>Conversational AI, microservices &amp; cloud-agnostic platforms</strong>
+              <div class="arc-chips">
+                <span class="arc-chip">🇧🇩 Bangladesh</span>
+                <span class="arc-chip">🇩🇪 Germany</span>
+                <span class="arc-chip">🇯🇵 Japan</span>
+                <span class="arc-chip">🇪🇸 Spain (remote)</span>
+                <span class="arc-chip">Conversational AI · MLOps · Cloud-native · Kubernetes</span>
+              </div>
+              <ul class="arc-companies">
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Hishab</span>
+                    <span class="arc-co-role">Advisor, Software Architecture &nbsp;·&nbsp; Oct 2019–Feb 2020 &nbsp;·&nbsp; 🇧🇩 BD · 🇩🇪 DE · 🇯🇵 JP</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">+4 engineers recruited</span>
+                  </div>
+                  <p class="arc-co-desc">Re-architected a conversational AI platform with engineers working directly across Bangladesh, Germany, and Japan. Introduced a reliability taxonomy, rebuilt the ML pipeline around it, established MLOps for model deployment, applied 12-factor app principles, and set up a new CI/CD workflow that significantly accelerated release cycles across the distributed team.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Together Initiatives Ltd.</span>
+                    <span class="arc-co-role">Advisor, Microservice Architecture &nbsp;·&nbsp; May–Sep 2020 &nbsp;·&nbsp; 🇧🇩 BD</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">3+ engineers recruited</span>
+                  </div>
+                  <p class="arc-co-desc">Designed a cloud-native microservices architecture with no single point of failure: Kubernetes with Traefik ingress, Consul service discovery, Keycloak SSO with Active Directory integration, Spring Cloud services. Mentored distributed teams on Agile and Extreme Programming practices.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">ADN DigiNet Ltd.</span>
+                    <span class="arc-co-role">Chief Software Architect &nbsp;·&nbsp; Sep 2020–Jul 2021 &nbsp;·&nbsp; 🇧🇩 BD</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">35+ team · 6+ recruited</span>
+                    <span class="arc-chip">Inherited existing team</span>
+                  </div>
+                  <p class="arc-co-desc">Chief architect at ADN Telecom's digital unit. Architected <strong>Roboket Marketing Platform</strong> — a campaign and customer journey execution backbone for telecom-grade digital marketing operations. Restructured the software development process, introduced Agile, and modernised the technology stack.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Arya Consulting</span>
+                    <span class="arc-co-role">Advisor, Software Architecture &nbsp;·&nbsp; Aug 2021–Jan 2022 &nbsp;·&nbsp; 🇪🇸 Sevilla (remote)</span>
+                  </div>
+                  <p class="arc-co-desc">Machine learning, API design, and data architecture advisory for a startup product team. Shaped the solution blueprint for scalability and ML-driven feature integration; mentored engineers on architecture principles and model deployment practices.</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <span class="period">2022 – present</span>
+            <div>
+              <strong>Enterprise AI &amp; the DDSE direction</strong>
+              <div class="arc-chips">
+                <span class="arc-chip">🇮🇳 India</span>
+                <span class="arc-chip">🇧🇩 Bangladesh</span>
+                <span class="arc-chip ac">1 → 70+ engineers</span>
+                <span class="arc-chip">4+ SaaS platforms</span>
+                <span class="arc-chip">Big-4 · Enterprise AI · Agent systems</span>
+              </div>
+              <ul class="arc-companies">
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">Ernst &amp; Young (EY)</span>
+                    <span class="arc-co-role">Associate Director, Client Technology &nbsp;·&nbsp; Jan 2022–present &nbsp;·&nbsp; 🇮🇳 IN / 🇧🇩 BD</span>
+                  </div>
+                  <div class="arc-co-chips">
+                    <span class="arc-chip ac">Grew team: 1 → 70+</span>
+                    <span class="arc-chip">4+ SaaS platforms in production</span>
+                    <span class="arc-chip">Currently: Principal Architect, CTO Office</span>
+                  </div>
+                  <p class="arc-co-desc">First hire and founding architect of EY's Client Technology product unit — a product organisation built inside a Big-4 firm. Designed the foundational platform stack on which 4+ SaaS platforms are now built and running across service lines. Cloud-native, multi-cloud architecture with Agile engineering standards. Grew the organisation from one person to 70+ engineers. Currently serving as Principal Architect for the CTO Office.</p>
+                </li>
+                <li class="arc-company">
+                  <div class="arc-co-head">
+                    <span class="arc-co-name">DDSE Foundation</span>
+                    <span class="arc-co-role">Founder &nbsp;·&nbsp; 2023–present &nbsp;·&nbsp; 🌐 Open source</span>
+                  </div>
+                  <p class="arc-co-desc">Founded the DDSE Foundation to formalise Decision-Driven Software Engineering as an open methodology. Produced ACM (Agentic Contract Model), CEF (Context Engineering Framework), decision record template standards, and the underlying papers on enterprise AI governance, agent system design, and active knowledge modelling.</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+
+      </div>
+    </section>
+
+    <section id="glossary" class="band alt">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">08 / Terms</p>
+          <h2>Terms <a class="anchor" href="#glossary" aria-label="Permalink to Terms">¶</a></h2>
+          <p>Terms I use across my work, grouped by the framework or methodology
+             they come from. Each definition links to the primary source where
+             the term was introduced.</p>
+        </header>
+        <dl class="glossary">
+
+          <div class="glossary-group">Active Things &amp; AKMM</div>
+
+          <dt>Active Thing</dt>
+          <dd>A bounded, stateful reality that begins, changes, relates, and ends.
+              The fundamental unit AKMM models knowledge around: not a record or document,
+              but a thing with a lifecycle, states, transitions, events, relations,
+              and a purpose.
+              <a href="https://www.amazon.com/dp/B0GY4XMMN1" rel="noopener">Book</a> ·
+              <a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">Preprint</a>.</dd>
+
+          <dt>Active Thing Type</dt>
+          <dd>The schema-level definition of a bounded reality: what states, transitions,
+              events, relations, and purpose apply to all instances of that class.
+              Distinct from an instance, which is a specific named thing in a specific
+              lifecycle.
+              <a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">Preprint</a>.</dd>
+
+          <dt>Identity Index</dt>
+          <dd>The active skeleton of a thing — start, end, current state, transitions,
+              canonical events, live relations, and purpose — exposed as a first-contact
+              knowledge structure before any action begins.</dd>
+
+          <dt>Lifecycle Memory</dt>
+          <dd>A record of how a thing has lived, not only what changed: the path through
+              states, not a generic audit log.
+              <a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">Preprint</a>.</dd>
+
+          <dt>Canonical Event</dt>
+          <dd>A shared occurrence (e.g. &ldquo;contract signed&rdquo;) that multiple active things
+              can register, each with its own per-thing consequence — separates the event
+              from the reaction.
+              <a href="https://doi.org/10.5281/zenodo.19782389" rel="noopener">Preprint</a>.</dd>
+
+          <dt>Relation Surface</dt>
+          <dd>A derived projection of an active thing’s live relationships at a given
+              lifecycle moment — what it is connected to and in what state those
+              connections currently are.</dd>
+
+          <dt>Boundary Analysis</dt>
+          <dd>The first principle of AKMM: before modelling, establish what the thing
+              is, what it is not, where it starts, and where it ends. The boundary
+              precedes structure.
+              <a href="https://www.amazon.com/dp/B0GY4XMMN1" rel="noopener">Book</a>.</dd>
+
+          <dt>Agent-native knowledgebase</dt>
+          <dd>A knowledgebase designed so an agent enters a composed world of typed,
+              stateful, related things — not a flat pile of text fragments assembled at
+              query time. AKMM is the modelling methodology for building one.
+              <a href="https://huggingface.co/blog/mrmanna/active-knowledge-modelling-methodology" rel="noopener">Article</a>.</dd>
+
+          <div class="glossary-group">DDSE, ACM &amp; CEF</div>
+
+          <dt>Decision-Driven Software Engineering (DDSE)</dt>
+          <dd>A methodology for AI-assisted software development where decisions —
+              architectural, engineering, incident, technology — are first-class typed
+              artefacts throughout the SDLC. Humans retain authority; AI uses decision
+              records as structured context rather than inferred intent.
+              <a href="https://doi.org/10.5281/zenodo.16462014" rel="noopener">Preprint</a> ·
+              <a href="https://ddse-foundation.github.io/" rel="noopener">Foundation</a>.</dd>
+
+          <dt>Decision Record</dt>
+          <dd>A typed, structured document capturing the context, options, chosen
+              direction, and rationale of a decision. DDSE defines five kinds: ADR
+              (Architectural), EDR (Engineering), IDR (Incident), TDM (Technology
+              Decision Map), and MDD (Master Decision Document).
+              <a href="https://github.com/ddse-foundation/ddse-foundation" rel="noopener">Repo</a>.</dd>
+
+          <dt>Agentic Contract</dt>
+          <dd>A typed specification an agent must fulfil: goals, plans, tools, policies,
+              tasks, capabilities, and a replayable decision ledger. Where a prompt is
+              advisory, a contract is verifiable.
+              <a href="https://github.com/ddse-foundation/acm" rel="noopener">Repo</a> ·
+              <a href="https://doi.org/10.5281/zenodo.17278997" rel="noopener">DOI</a>.</dd>
+
+          <dt>Contract (in ACM)</dt>
+          <dd>The runtime artefact that enforces an agentic contract: guard conditions,
+              capability map, execution policy, and a ledger that can be replayed — so
+              agent behaviour can be reasoned about, not only observed after the fact.
+              <a href="https://github.com/ddse-foundation/acm" rel="noopener">Repo</a>.</dd>
+
+          <dt>Context Engineering</dt>
+          <dd>The discipline of assembling LLM context deliberately — through typed
+              knowledge models, relationship navigation, and lifecycle awareness — rather
+              than retrieving it as a flat embedding result. CEF is the research
+              implementation of this approach.
+              <a href="https://github.com/ddse-foundation/cef" rel="noopener">Repo</a> ·
+              <a href="https://huggingface.co/blog/mrmanna/ddse-cef-orm" rel="noopener">Article</a>.</dd>
+
+          <div class="glossary-group">Enterprise AI &amp; EAITF</div>
+
+          <dt>Enterprise AI Transformation Framework (EAITF)</dt>
+          <dd>A structured approach for prioritising, sequencing, and governing AI
+              deployments in large organisations — covering decision domain identification,
+              readiness scoring, and human authority across the AI programme.
+              Introduced in <em>Enterprise AI: Strategic Blueprint for Purple People</em>.
+              <a href="https://doi.org/10.5281/zenodo.11422132" rel="noopener">Book DOI</a>.</dd>
+
+          <dt>Decision Domain</dt>
+          <dd>A bounded class of decisions inside a business process; the unit
+              of profiling and readiness scoring in the EAITF. Identifying decision
+              domains before selecting AI tools is the core discipline the framework
+              teaches.
+              <a href="https://mrmanna.medium.com/enterprise-ai-strategy-what-the-industry-is-missing-25a17202e3b7" rel="noopener">Article</a>.</dd>
+
+          <dt>AI Effectiveness Index (AEI)</dt>
+          <dd>A scoring construct from the EAITF that measures how effectively AI
+              is operating within a decision domain, across dimensions of reliability,
+              human authority, and business fit.
+              <a href="https://doi.org/10.5281/zenodo.11422132" rel="noopener">Book DOI</a>.</dd>
+
+          <dt>Purple People</dt>
+          <dd>Engineers and leaders who work at the boundary between AI capability
+              and business reality — neither pure AI researchers nor pure executives.
+              The audience the Enterprise AI book is written for and the profile the
+              EAITF is designed to develop.
+              <a href="https://www.amazon.com/dp/B0D5RKHXMY" rel="noopener">Book</a>.</dd>
+
+          <div class="glossary-group">Platform &amp; architecture</div>
+
+          <dt>Cloud-agnostic</dt>
+          <dd>A constraint on a system: it must run standalone on a developer machine,
+              in Docker Swarm, and on any Kubernetes provider — without environment-specific
+              changes. A portability requirement, not an identity label for the engineer.
+              <a href="https://github.com/kareegor/mmfb" rel="noopener">MMFB repo</a>.</dd>
+
+        </dl>
+      </div>
+    </section>
+
+    <section id="connect" class="band">
+      <div class="wrap">
+        <header class="band-head">
+          <p class="section-num">09 / Connect</p>
+          <h2>Connect <a class="anchor" href="#connect" aria-label="Permalink to Connect">¶</a></h2>
+          <p>Where to find me: ORCID for DOI-indexed research, GitHub for code,
+             Medium for long-form writing, Hugging Face for ML-adjacent articles
+             and preprints, LinkedIn for professional context.</p>
+        </header>
+
+        <ul class="links">
+          <li><a href="https://orcid.org/0009-0009-4252-1545" rel="noopener">ORCID</a> — DOI-backed works</li>
+          <li><a href="https://github.com/mrmanna" rel="noopener">GitHub — mrmanna</a></li>
+          <li><a href="https://github.com/ddse-foundation" rel="noopener">GitHub — DDSE Foundation</a></li>
+          <li><a href="https://mrmanna.medium.com/" rel="noopener">Medium</a> · <a href="https://medium.com/feed/@mrmanna" rel="noopener">RSS</a></li>
+          <li><a href="https://huggingface.co/mrmanna" rel="noopener">Hugging Face</a> — articles &amp; preprints</li>
+          <li><a href="https://www.linkedin.com/in/mannaco/" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://ddse-foundation.github.io/" rel="noopener">DDSE Foundation</a></li>
+          <li><a href="https://www.amazon.com/stores/author/B0D5QXG5CY/allbooks" rel="noopener">Amazon author page</a></li>
+          <li><a href="https://leanpub.com/u/mrmanna" rel="noopener">Leanpub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year">2026</span> Mahmudur R Manna.</span>
+      <span>Built as a static page on GitHub Pages.
+        <a href="feed.xml" rel="noopener">RSS</a> ·
+        <a href="https://github.com/mrmanna/mrmanna.github.io" rel="noopener">Source</a>.</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>

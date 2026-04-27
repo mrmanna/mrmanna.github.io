@@ -1,27 +1,20 @@
-# Bundler cache
-.bundle
-vendor
-Gemfile.lock
+# ── OS & editor ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
 
-# Jekyll cache
-.jekyll-cache
-.jekyll-metadata
-_site
+# ── Research & drafts (not for deployment) ─────────────────────
+research-new-site/
 
-# RubyGems
+# ── Build artefacts ────────────────────────────────────────────
+_site/
+node_modules/
+.bundle/
+vendor/
 *.gem
 
-# NPM dependencies
-node_modules
-package-lock.json
-
-# IDE configurations
-.idea
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
-!.vscode/tasks.json
-
-# Misc
-_sass/vendors
-assets/js/dist
+# ── Local tools ────────────────────────────────────────────────
+.env
+.env.local
