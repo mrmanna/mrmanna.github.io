@@ -914,6 +914,17 @@ a:hover { opacity: 0.62; }
 }
 .footer-inner a { color: var(--ink-secondary); border-bottom: 1px solid var(--rule); }
 .footer-inner a:hover { color: var(--ink); border-bottom-color: var(--ink); opacity: 1; }
+.print-btn {
+  all: unset;
+  cursor: pointer;
+  color: var(--ink-secondary);
+  border-bottom: 1px solid var(--rule);
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  transition: color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease);
+}
+.print-btn:hover { color: var(--ink); border-bottom-color: var(--ink); }
 
 /* ── Demos & talks (homepage) ──────────────────────────────── */
 .demos {
@@ -1286,24 +1297,122 @@ a:hover { opacity: 0.62; }
   }
 }
 
-/* ── Print ─────────────────────────────────────────────────── */
+/* ── Print / Save as CV ─────────────────────────────────────── */
+@page { margin: 1.8cm 2cm; size: A4; }
+
 @media print {
+  /* Token overrides */
   :root {
     --paper:#fff; --surface:#fff; --surface-2:#fff;
     --ink:#000; --ink-2:#000; --ink-secondary:#333; --ink-muted:#555;
     --rule:#bbb; --rule-strong:#888;
   }
-  body { font-size: 10.5pt; line-height: 1.4; }
-  .topbar, .nav-toggle, .theme-toggle, .skip, .start-here, .anchor, .venue { display: none; }
-  .band { padding-block: 0.7rem; page-break-inside: avoid; }
-  .band.alt { background: #fff; }
-  .two-col, .cards, .topics, .repo-grid { display: block; }
-  .works.books > li { grid-template-columns: 52px 1fr; }
-  .cover img { width: 52px; height: 78px; }
-  a { color: #000; background-image: none; }
-  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.72em; color: #555; word-break: break-all; }
-  h2 { page-break-after: avoid; }
-  .feed > li, .arc > li, .repo-card, .card { page-break-inside: avoid; }
+
+  /* Base */
+  html, body { background: #fff !important; color: #000; }
+  body { font-size: 10pt; line-height: 1.45; }
+
+  /* ── Hide: UI chrome + sections not useful on paper ── */
+  .topbar, .nav-toggle, .theme-toggle, .skip, .print-btn,
+  .start-here, .anchor, .venue,
+  #demos, #writing, #glossary, #connect { display: none !important; }
+
+  /* ── Bands ── */
+  .band, .band.alt {
+    padding-block: 1rem 0.5rem;
+    background: #fff !important;
+    box-shadow: none;
+    border: none;
+  }
+
+  /* ── Intro — compact header block ── */
+  .intro { padding-block: 0.4rem 0.7rem; }
+  .intro-inner { display: block; }
+  .intro-photo { display: none; }
+  .intro-text h1 { font-size: 22pt; margin-bottom: 0.1rem; }
+  .eyebrow { font-size: 8.5pt; letter-spacing: 0.06em; color: #444; margin-bottom: 0.15rem; }
+  .lede { font-size: 10.5pt; margin-bottom: 0.35rem; }
+  .sub  { font-size: 9pt; color: #333; margin-bottom: 0.35rem; }
+  .quick-links { font-size: 8.5pt; gap: 0.6rem; }
+  /* suppress URL expansion for profile quick-links */
+  .quick-links a[href^="http"]::after { content: none !important; }
+
+  /* ── Section headings ── */
+  .band-head {
+    margin-bottom: 0.7rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 0.6pt solid #888;
+    page-break-after: avoid;
+  }
+  .section-num { font-size: 7.5pt; letter-spacing: 0.12em; color: #666; }
+  h2 { font-size: 14pt; page-break-after: avoid; }
+  h3 { font-size: 10.5pt; page-break-after: avoid; }
+
+  /* ── Page breaks ── */
+  #books { page-break-before: always; }
+  #arc   { page-break-before: always; }
+
+  /* ── Now / feed ── */
+  .feed { padding-left: 0; list-style: none; }
+  .feed > li {
+    page-break-inside: avoid;
+    padding-block: 0.45rem;
+    border-bottom: 0.4pt solid #ccc;
+  }
+  .feed-meta { font-size: 8pt; color: #555; }
+
+  /* ── Methods cards ── */
+  .two-col, .cards { display: block; gap: 0; }
+  .card {
+    page-break-inside: avoid;
+    border: 0.5pt solid #bbb;
+    box-shadow: none;
+    margin-bottom: 0.5rem;
+    padding: 0.45rem 0.65rem;
+  }
+
+  /* ── Books & papers ── */
+  .topics { display: block; }
+  .works.books > li {
+    grid-template-columns: 46px 1fr;
+    page-break-inside: avoid;
+    margin-bottom: 0.5rem;
+  }
+  .cover img { width: 46px; height: auto; }
+  /* always expand abstracts in print */
+  details { open: true; }
+  details summary { display: none; }
+  details > * { display: block !important; }
+
+  /* ── Code repos ── */
+  .repo-grid { display: block; }
+  .repo-card {
+    page-break-inside: avoid;
+    border: 0.5pt solid #bbb;
+    box-shadow: none;
+    margin-bottom: 0.5rem;
+    padding: 0.45rem 0.65rem;
+  }
+  .repo-group-head { font-size: 7.5pt; letter-spacing: 0.1em; color: #666; margin-top: 0.7rem; }
+
+  /* ── Arc / career timeline ── */
+  .arc > li {
+    page-break-inside: avoid;
+    grid-template-columns: 6.5rem 1fr;
+  }
+
+  /* ── Links ── */
+  a { color: #000; background-image: none; text-decoration: none; }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 7pt;
+    color: #555;
+    word-break: break-all;
+    font-family: var(--font-mono);
+  }
+  /* suppress URL expansion for arc company names — clutters timeline */
+  .arc-co-name a[href^="http"]::after,
+  .repo-name[href^="http"]::after { content: none !important; }
 }
 
 /* ── Responsive ────────────────────────────────────────────── */
